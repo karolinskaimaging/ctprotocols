@@ -15,6 +15,11 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for all branches
 
+      - name: Set up Git configuration
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
       - name: Push to organization repository
         run: |
           git remote add target https://$GITHUB_ACTOR:${{ secrets.GITHUBACTIONWORKFLOW }}@github.com/karolinskaimaging/ctprotocols.git
