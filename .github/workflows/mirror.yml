@@ -5,20 +5,23 @@ on:
     branches:
       - main  # Change this to the branch you want to mirror
 
+permissions:
+  contents: write  # Allow the action to push changes
+
 jobs:
   mirror:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout source repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2  # Use v2 as suggested in the guide
         with:
           fetch-depth: 0  # Fetch all history for all branches
 
-      - name: Set up Git configuration
+      - name: Configure Git
         run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git config user.name "Adrian Szum"
+          git config user.email "actions@users.noreply.github.com"
 
       - name: Push to organization repository
         run: |
