@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="DisplayStyle.xslt"?>
+<ProtocolList>
+  <ColumnHead>
+    <ProtocolDescription>Protocol Description</ProtocolDescription>
+    <RTPatientMarking>RT Patient Marking</RTPatientMarking>
+    <BodySize>Patient Type</BodySize>
+    <OrganCharacteristics>Organ Characteristic</OrganCharacteristics>
+    <TargetRegion>Target Region</TargetRegion>
+    <PresetName>FAST Topo Region</PresetName>
+    <BasicScanMode>Scan Mode</BasicScanMode>
+    <UserAvailableBasicScanModes>Accessible Scan Modes</UserAvailableBasicScanModes>
+    <DecisionTreeStrategyReviewEnabled>Strategy Review</DecisionTreeStrategyReviewEnabled>
+    <DecisionTrees>Decision Trees</DecisionTrees>
+    <DecisionTreeStrategies>Scan Strategies</DecisionTreeStrategies>
+    <RangeTilt>Tilt [°]</RangeTilt>
+    <AcquiredSlices>Acquisition [mm]</AcquiredSlices>
+    <ScanDirection>Scan Direction</ScanDirection>
+    <TableDirection>Table Direction</TableDirection>
+    <PatientPosition>Patient Position</PatientPosition>
+    <FeedScan>Feed [mm]</FeedScan>
+    <NumberOfScans>No. of Scans</NumberOfScans>
+    <TubePositionGantryRelated>Tube Position</TubePositionGantryRelated>
+    <PlannedTopoLength>Length [mm]</PlannedTopoLength>
+    <CareDose4DAndCareKv>CARE Dose4D &amp; CARE keV</CareDose4DAndCareKv>
+    <CareDoseEnabled>CARE Dose4D</CareDoseEnabled>
+    <CareKvQualityRefmAs120KvModelIndependent>CARE keV IQ level</CareKvQualityRefmAs120KvModelIndependent>
+    <ImageQualityMaterialContrast>CARE keV optimized for</ImageQualityMaterialContrast>
+    <CareKvGrouping>CARE keV Grouping</CareKvGrouping>
+    <TubeVoltage>kV</TubeVoltage>
+    <DualVoltageTubeVoltage>kV (L/H)</DualVoltageTubeVoltage>
+    <ReferenceMilliAmpereSecondsEffective>Quality ref. mAs</ReferenceMilliAmpereSecondsEffective>
+    <DualVoltageReferenceMilliAmpereSecondsEffectiveLow>Quality ref. mAs (L)</DualVoltageReferenceMilliAmpereSecondsEffectiveLow>
+    <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh>Quality ref. mAs (H)</DualVoltageReferenceMilliAmpereSecondsEffectiveHigh>
+    <MilliAmpereSecondsEffective>Eff. mAs</MilliAmpereSecondsEffective>
+    <DualVoltageMilliAmpereSecondsEffectiveLow>Eff. mAs (L)</DualVoltageMilliAmpereSecondsEffectiveLow>
+    <DualVoltageMilliAmpereSecondsEffectiveHigh>Eff. mAs (H)</DualVoltageMilliAmpereSecondsEffectiveHigh>
+    <TubeCurrent>mA</TubeCurrent>
+    <MinimumVoltageWithXRayMaterial>CARE keV min. kV</MinimumVoltageWithXRayMaterial>
+    <MaximumVoltageWithXRayMaterial>CARE keV max. kV</MaximumVoltageWithXRayMaterial>
+    <CTDoseIndexWeighted>CTDIvol [mGy]</CTDoseIndexWeighted>
+    <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter>SSDE [mGy]</SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter>
+    <NextCTDoseIndex>CTDIvol [mGy/s]</NextCTDoseIndex>
+    <DoseLengthProductEffective>DLP [mGy*cm]</DoseLengthProductEffective>
+    <NextDoseLengthProduct>DLP [mGy*cm/s]</NextDoseLengthProduct>
+    <CTDoseIndexWeightedLimit>Dose Notification CTDIvol [mGy]</CTDoseIndexWeightedLimit>
+    <CTDoseIndexWeightedLimitForFluoro>Dose Notification CTDIvol [mGy/s]</CTDoseIndexWeightedLimitForFluoro>
+    <DoseLengthProductEffectiveLimit>Dose Notification DLP [mGy*cm]</DoseLengthProductEffectiveLimit>
+    <DoseLengthProductEffectiveLimitForFluoro>Dose Notification DLP [mGy*cm/s]</DoseLengthProductEffectiveLimitForFluoro>
+    <EnergyThresholds>Energy Thresholds [keV]</EnergyThresholds>
+    <ShapedFilter>Shaped Filter</ShapedFilter>
+    <HandCareSegment>HandCARE</HandCareSegment>
+    <AverageEffectiveTubeCurrent>mA average</AverageEffectiveTubeCurrent>
+    <PitchFactor>Pitch</PitchFactor>
+    <RotationTime>Rot. Time [s]</RotationTime>
+    <ScanTime>Scan Time [s]</ScanTime>
+    <ExaminationTime>Exam Time [s]</ExaminationTime>
+    <ImageCycleTime>Cycle Time [s]</ImageCycleTime>
+    <AudioInstructionText>Patient Instruction</AudioInstructionText>
+    <AudioInstructionCommand>Instruction Command</AudioInstructionCommand>
+    <PostInstructionDelay>Post Instruction Delay [s]</PostInstructionDelay>
+    <IntendedAbsoluteStartDelay>Absolute Start Delay: Actual | Intended [s]</IntendedAbsoluteStartDelay>
+    <PostBolusDelayBolusTracking>Post Bolus Delay (BT): Actual | Intended [s]</PostBolusDelayBolusTracking>
+    <PostBolusDelayTestbolus>Post Bolus Delay (TB) [s]</PostBolusDelayTestbolus>
+    <AutoRoiOption>FAST ROI</AutoRoiOption>
+    <HuTriggerLevel>Trigger Level @120kV [HU]</HuTriggerLevel>
+    <AutoTrigger>Auto Trigger</AutoTrigger>
+    <ExposurePattern>Exposure Pattern [s]</ExposurePattern>
+    <MemoContent>Memo</MemoContent>
+    <MetalDetection>Check&amp;GO Metal Detection</MetalDetection>
+    <QualityCheck>Check&amp;GO</QualityCheck>
+    <QualityCheckImageType>Check&amp;GO Image Type</QualityCheckImageType>
+    <QualityCheckOrientation>Check&amp;GO Orientation</QualityCheckOrientation>
+    <ScanStart>Scan Start</ScanStart>
+    <AutoRangeReferenceLines>Scan Ref. Lines</AutoRangeReferenceLines>
+    <MaximumExamTime>FAST Adjust Upper Limit Exam Time [s]</MaximumExamTime>
+    <MaximumMAsDecrease>FAST Adjust Lower Limit max. mAs [%]</MaximumMAsDecrease>
+    <MinimumPitch>FAST Adjust Lower Limit Pitch Factor</MinimumPitch>
+    <PulsingMode>Pulsing Mode</PulsingMode>
+    <PulsingStart>Phase Start</PulsingStart>
+    <PulsingEnd>Phase End</PulsingEnd>
+    <PulsingUnit>Phase Unit</PulsingUnit>
+    <EstimatedHeartrate>Est. Heart Rate</EstimatedHeartrate>
+    <EstimatedRespiratoryRate>Est. Respiratory Rate</EstimatedRespiratoryRate>
+    <EstimatedTemporalResolution>Temporal Resolution [ms]</EstimatedTemporalResolution>
+    <IsCoupled>Injector Coupling</IsCoupled>
+    <ContrastProtocol>Contrast Protocol</ContrastProtocol>
+    <SliceThickness>Slice Thickness [mm]</SliceThickness>
+    <Increment>Increment [mm]</Increment>
+    <SlicesPerRotation>Slices/rot. (IVR)</SlicesPerRotation>
+    <NumberOfImages>No. of Images</NumberOfImages>
+    <Comment1>Comment 1</Comment1>
+    <Comment2>Comment 2</Comment2>
+    <ReconPattern>Reconstruction Pattern [s]</ReconPattern>
+    <ReconCompoundStrategy>Recon Strategies</ReconCompoundStrategy>
+    <DirectDE>Spectral Recon</DirectDE>
+    <AutoKeV>Auto keV</AutoKeV>
+    <DirectKeV>Energy [keV]</DirectKeV>
+    <SpecialReconType>Inline Results</SpecialReconType>
+    <MultiRecons>Multi Recons</MultiRecons>
+    <FixAxial>Fix Axial</FixAxial>
+    <ImageType>Image Type</ImageType>
+    <Window>Window@120kV</Window>
+    <FastWindow>FAST Window</FastWindow>
+    <Kernel>Kernel</Kernel>
+    <IterativeRecon>QIR</IterativeRecon>
+    <IterativeReconStrength>QIR Strength</IterativeReconStrength>
+    <BHC>iBHC</BHC>
+    <BHCMaterial>iBHC Material</BHCMaterial>
+    <IMar>iMAR</IMar>
+    <IMarType>iMAR Type</IMarType>
+    <ImageOrientation>Image Orientation</ImageOrientation>
+    <ImageOrder>Image Order</ImageOrder>
+    <FastPlanning>FAST Planning</FastPlanning>
+    <FastPlanningFov>FAST Planning Width</FastPlanningFov>
+    <Fast3D>FAST 3D</Fast3D>
+    <ImageMatrixSize>Matrix Size</ImageMatrixSize>
+    <ImageMatrix>Matrix</ImageMatrix>
+    <FoVWidth>Width [mm]</FoVWidth>
+    <FoVHeight>Height [mm]</FoVHeight>
+    <FoVCenterX>Center X [mm]</FoVCenterX>
+    <FoVCenterY>Center Y [mm]</FoVCenterY>
+    <Mirror>Mirroring</Mirror>
+    <HDFoV>HD FoV</HDFoV>
+    <PhysioReconstructionType>Recon Type</PhysioReconstructionType>
+    <ReconPhaseStep>Recon Phase Step</ReconPhaseStep>
+    <ReconPhases>Recon Phase(s)</ReconPhases>
+    <ReconPhaseUnit>Recon Phase Unit</ReconPhaseUnit>
+    <TrueStack>StackRecon</TrueStack>
+    <TemporalResolution>Temporal Resolution [ms]</TemporalResolution>
+    <UseScanRepetitionForRecon>Flex ECG Recon</UseScanRepetitionForRecon>
+    <EcgDocumentation>ECG Documentation</EcgDocumentation>
+    <AutoRecon>Auto Recon</AutoRecon>
+    <AutoReconReferenceLines>Recon Ref. Lines</AutoReconReferenceLines>
+    <BodyPartExamined>Body Part Examined</BodyPartExamined>
+    <SeriesSplitting>Series Splitting</SeriesSplitting>
+    <AutoTransferNodes>Transfer Nodes</AutoTransferNodes>
+    <AutoTransferEnabled>Auto Transfer</AutoTransferEnabled>
+    <Workplace>Workplace</Workplace>
+    <AutoViewing>Auto CT View&amp;GO</AutoViewing>
+    <ViewAndGoDataroles>CT View&amp;GO Dataroles</ViewAndGoDataroles>
+    <AutoFilming>Auto Printing</AutoFilming>
+    <AutoPrintingLayout>Auto Printing Layout</AutoPrintingLayout>
+    <AdvancedVisualization>Advanced Visualization</AdvancedVisualization>
+    <AdvancedVisualizationDataRoles>Advanced Visualization Dataroles</AdvancedVisualizationDataRoles>
+    <LocalApplication>Local Application Workflow</LocalApplication>
+    <SyngoViaApplication>syngo.via Workflow</SyngoViaApplication>
+    <SyngoViaDataroles>syngo.via Datarole</SyngoViaDataroles>
+    <SpecialReconType>Inline Results</SpecialReconType>
+    <PacsReadyNoduleTypes>Filtering of Lung CAD Markers</PacsReadyNoduleTypes>
+    <PacsReadyStartPosition>Start Position [mm]</PacsReadyStartPosition>
+    <PacsReadyEndPosition>End Position [mm]</PacsReadyEndPosition>
+    <PacsReadyCprType>CPR Type</PacsReadyCprType>
+    <PacsReadyVessel>Vessel</PacsReadyVessel>
+    <PacsReadyVesselLabel>Vessel Label</PacsReadyVesselLabel>
+    <PacsReadyOrgan>Organ</PacsReadyOrgan>
+    <PacsReadyAngleBetweenImages>Angle Between Images [°]</PacsReadyAngleBetweenImages>
+    <PacsReadyStartAngle>Start Angle [°]</PacsReadyStartAngle>
+    <PacsReadyEndAngle>End Angle [°]</PacsReadyEndAngle>
+    <PacsReadyVrtPreset>VRT Preset</PacsReadyVrtPreset>
+    <PacsReadyRemoveTable>Remove Table</PacsReadyRemoveTable>
+    <PacsReadyRemoveBones>Remove Bones</PacsReadyRemoveBones>
+    <PacsReadyIsInvertedViewingDirection>Viewing Direction</PacsReadyIsInvertedViewingDirection>
+    <PacsReadyHighResolution>High Resolution</PacsReadyHighResolution>
+    <PacsReadyApplicationClassName>Application Class</PacsReadyApplicationClassName>
+    <PacsReadyAutoKev>Auto keV</PacsReadyAutoKev>
+    <PacsReadyEnergy>Energy [keV]</PacsReadyEnergy>
+    <PacsReadyShowPlaques>Show Plaques</PacsReadyShowPlaques>
+    <PacsReadyDataset>Data Set</PacsReadyDataset>
+    <PacsReadyScoringMode>Scoring Mode</PacsReadyScoringMode>
+    <PacsReadyReferenceDatabase>Reference Database</PacsReadyReferenceDatabase>
+    <PacsReadyStructureTemplateSelectionMode>Structure Template Selection Mode</PacsReadyStructureTemplateSelectionMode>
+    <PacsReadyStructureTemplateToSegment>Structure Templates</PacsReadyStructureTemplateToSegment>
+    <PacsReadyLungAnalysisView>Lung Analysis View</PacsReadyLungAnalysisView>
+    <PacsReadyThickAxial>Thick Axial</PacsReadyThickAxial>
+    <PacsReadyLungLobeSegmentation>Lung Lobe Segmentation</PacsReadyLungLobeSegmentation>
+    <PacsReadyUnfoldingTypeId>Unfolding Type</PacsReadyUnfoldingTypeId>
+  </ColumnHead>
+  <SpecialColumnHead>
+    <FolderName>Folder Name</FolderName>
+    <ProtocolName>Protocol Name</ProtocolName>
+    <RangeName>Range Name</RangeName>
+    <ReconName>Recon Name</ReconName>
+    <HiddenProtocols>Hidden Protocol</HiddenProtocols>
+    <HiddenRange>Hidden Range</HiddenRange>
+    <InRoomScannable>CT Scan&amp;GO Approved</InRoomScannable>
+  </SpecialColumnHead>
+  <Mode />
+</ProtocolList>
