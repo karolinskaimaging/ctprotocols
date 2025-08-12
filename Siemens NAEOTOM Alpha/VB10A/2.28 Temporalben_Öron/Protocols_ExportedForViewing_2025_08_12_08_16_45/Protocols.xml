@@ -1,0 +1,2117 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="DisplayStyle.xslt"?>
+<ProtocolList>
+  <ColumnHead>
+    <ProtocolDescription>Protocol Description</ProtocolDescription>
+    <RTPatientMarking>RT Patient Marking</RTPatientMarking>
+    <BodySize>Patient Type</BodySize>
+    <OrganCharacteristics>Organ Characteristic</OrganCharacteristics>
+    <TargetRegion>Target Region</TargetRegion>
+    <PresetName>FAST Topo Region</PresetName>
+    <BasicScanMode>Scan Mode</BasicScanMode>
+    <UserAvailableBasicScanModes>Accessible Scan Modes</UserAvailableBasicScanModes>
+    <DecisionTreeStrategyReviewEnabled>Strategy Review</DecisionTreeStrategyReviewEnabled>
+    <DecisionTrees>Decision Trees</DecisionTrees>
+    <DecisionTreeStrategies>Scan Strategies</DecisionTreeStrategies>
+    <RangeTilt>Tilt [°]</RangeTilt>
+    <AcquiredSlices>Acquisition [mm]</AcquiredSlices>
+    <ScanDirection>Scan Direction</ScanDirection>
+    <TableDirection>Table Direction</TableDirection>
+    <PatientPosition>Patient Position</PatientPosition>
+    <FeedScan>Feed [mm]</FeedScan>
+    <NumberOfScans>No. of Scans</NumberOfScans>
+    <TubePositionGantryRelated>Tube Position</TubePositionGantryRelated>
+    <PlannedTopoLength>Length [mm]</PlannedTopoLength>
+    <CareDose4DAndCareKv>CARE Dose4D &amp; CARE keV</CareDose4DAndCareKv>
+    <CareDoseEnabled>CARE Dose4D</CareDoseEnabled>
+    <CareKvQualityRefmAs120KvModelIndependent>CARE keV IQ level</CareKvQualityRefmAs120KvModelIndependent>
+    <ImageQualityMaterialContrast>CARE keV optimized for</ImageQualityMaterialContrast>
+    <CareKvGrouping>CARE keV Grouping</CareKvGrouping>
+    <TubeVoltage>kV</TubeVoltage>
+    <DualVoltageTubeVoltage>kV (L/H)</DualVoltageTubeVoltage>
+    <ReferenceMilliAmpereSecondsEffective>Quality ref. mAs</ReferenceMilliAmpereSecondsEffective>
+    <DualVoltageReferenceMilliAmpereSecondsEffectiveLow>Quality ref. mAs (L)</DualVoltageReferenceMilliAmpereSecondsEffectiveLow>
+    <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh>Quality ref. mAs (H)</DualVoltageReferenceMilliAmpereSecondsEffectiveHigh>
+    <MilliAmpereSecondsEffective>Eff. mAs</MilliAmpereSecondsEffective>
+    <DualVoltageMilliAmpereSecondsEffectiveLow>Eff. mAs (L)</DualVoltageMilliAmpereSecondsEffectiveLow>
+    <DualVoltageMilliAmpereSecondsEffectiveHigh>Eff. mAs (H)</DualVoltageMilliAmpereSecondsEffectiveHigh>
+    <TubeCurrent>mA</TubeCurrent>
+    <MinimumVoltageWithXRayMaterial>CARE keV min. kV</MinimumVoltageWithXRayMaterial>
+    <MaximumVoltageWithXRayMaterial>CARE keV max. kV</MaximumVoltageWithXRayMaterial>
+    <CTDoseIndexWeighted>CTDIvol [mGy]</CTDoseIndexWeighted>
+    <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter>SSDE [mGy]</SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter>
+    <NextCTDoseIndex>CTDIvol [mGy/s]</NextCTDoseIndex>
+    <DoseLengthProductEffective>DLP [mGy*cm]</DoseLengthProductEffective>
+    <NextDoseLengthProduct>DLP [mGy*cm/s]</NextDoseLengthProduct>
+    <CTDoseIndexWeightedLimit>Dose Notification CTDIvol [mGy]</CTDoseIndexWeightedLimit>
+    <CTDoseIndexWeightedLimitForFluoro>Dose Notification CTDIvol [mGy/s]</CTDoseIndexWeightedLimitForFluoro>
+    <DoseLengthProductEffectiveLimit>Dose Notification DLP [mGy*cm]</DoseLengthProductEffectiveLimit>
+    <DoseLengthProductEffectiveLimitForFluoro>Dose Notification DLP [mGy*cm/s]</DoseLengthProductEffectiveLimitForFluoro>
+    <EnergyThresholds>Energy Thresholds [keV]</EnergyThresholds>
+    <ShapedFilter>Shaped Filter</ShapedFilter>
+    <HandCareSegment>HandCARE</HandCareSegment>
+    <AverageEffectiveTubeCurrent>mA average</AverageEffectiveTubeCurrent>
+    <PitchFactor>Pitch</PitchFactor>
+    <RotationTime>Rot. Time [s]</RotationTime>
+    <ScanTime>Scan Time [s]</ScanTime>
+    <ExaminationTime>Exam Time [s]</ExaminationTime>
+    <ImageCycleTime>Cycle Time [s]</ImageCycleTime>
+    <AudioInstructionText>Patient Instruction</AudioInstructionText>
+    <AudioInstructionCommand>Instruction Command</AudioInstructionCommand>
+    <PostInstructionDelay>Post Instruction Delay [s]</PostInstructionDelay>
+    <IntendedAbsoluteStartDelay>Absolute Start Delay: Actual | Intended [s]</IntendedAbsoluteStartDelay>
+    <PostBolusDelayBolusTracking>Post Bolus Delay (BT): Actual | Intended [s]</PostBolusDelayBolusTracking>
+    <PostBolusDelayTestbolus>Post Bolus Delay (TB) [s]</PostBolusDelayTestbolus>
+    <AutoRoiOption>FAST ROI</AutoRoiOption>
+    <HuTriggerLevel>Trigger Level @120kV [HU]</HuTriggerLevel>
+    <AutoTrigger>Auto Trigger</AutoTrigger>
+    <ExposurePattern>Exposure Pattern [s]</ExposurePattern>
+    <MemoContent>Memo</MemoContent>
+    <MetalDetection>Check&amp;GO Metal Detection</MetalDetection>
+    <QualityCheck>Check&amp;GO</QualityCheck>
+    <QualityCheckImageType>Check&amp;GO Image Type</QualityCheckImageType>
+    <QualityCheckOrientation>Check&amp;GO Orientation</QualityCheckOrientation>
+    <ScanStart>Scan Start</ScanStart>
+    <AutoRangeReferenceLines>Scan Ref. Lines</AutoRangeReferenceLines>
+    <MaximumExamTime>FAST Adjust Upper Limit Exam Time [s]</MaximumExamTime>
+    <MaximumMAsDecrease>FAST Adjust Lower Limit max. mAs [%]</MaximumMAsDecrease>
+    <MinimumPitch>FAST Adjust Lower Limit Pitch Factor</MinimumPitch>
+    <PulsingMode>Pulsing Mode</PulsingMode>
+    <PulsingStart>Phase Start</PulsingStart>
+    <PulsingEnd>Phase End</PulsingEnd>
+    <PulsingUnit>Phase Unit</PulsingUnit>
+    <EstimatedHeartrate>Est. Heart Rate</EstimatedHeartrate>
+    <EstimatedRespiratoryRate>Est. Respiratory Rate</EstimatedRespiratoryRate>
+    <EstimatedTemporalResolution>Temporal Resolution [ms]</EstimatedTemporalResolution>
+    <IsCoupled>Injector Coupling</IsCoupled>
+    <ContrastProtocol>Contrast Protocol</ContrastProtocol>
+    <SliceThickness>Slice Thickness [mm]</SliceThickness>
+    <Increment>Increment [mm]</Increment>
+    <SlicesPerRotation>Slices/rot. (IVR)</SlicesPerRotation>
+    <NumberOfImages>No. of Images</NumberOfImages>
+    <Comment1>Comment 1</Comment1>
+    <Comment2>Comment 2</Comment2>
+    <ReconPattern>Reconstruction Pattern [s]</ReconPattern>
+    <ReconCompoundStrategy>Recon Strategies</ReconCompoundStrategy>
+    <DirectDE>Spectral Recon</DirectDE>
+    <AutoKeV>Auto keV</AutoKeV>
+    <DirectKeV>Energy [keV]</DirectKeV>
+    <SpecialReconType>Inline Results</SpecialReconType>
+    <MultiRecons>Multi Recons</MultiRecons>
+    <FixAxial>Fix Axial</FixAxial>
+    <ImageType>Image Type</ImageType>
+    <Window>Window@120kV</Window>
+    <FastWindow>FAST Window</FastWindow>
+    <Kernel>Kernel</Kernel>
+    <IterativeRecon>QIR</IterativeRecon>
+    <IterativeReconStrength>QIR Strength</IterativeReconStrength>
+    <BHC>iBHC</BHC>
+    <BHCMaterial>iBHC Material</BHCMaterial>
+    <IMar>iMAR</IMar>
+    <IMarType>iMAR Type</IMarType>
+    <ImageOrientation>Image Orientation</ImageOrientation>
+    <ImageOrder>Image Order</ImageOrder>
+    <FastPlanning>FAST Planning</FastPlanning>
+    <FastPlanningFov>FAST Planning Width</FastPlanningFov>
+    <Fast3D>FAST 3D</Fast3D>
+    <ImageMatrixSize>Matrix Size</ImageMatrixSize>
+    <ImageMatrix>Matrix</ImageMatrix>
+    <FoVWidth>Width [mm]</FoVWidth>
+    <FoVHeight>Height [mm]</FoVHeight>
+    <FoVCenterX>Center X [mm]</FoVCenterX>
+    <FoVCenterY>Center Y [mm]</FoVCenterY>
+    <Mirror>Mirroring</Mirror>
+    <HDFoV>HD FoV</HDFoV>
+    <PhysioReconstructionType>Recon Type</PhysioReconstructionType>
+    <ReconPhaseStep>Recon Phase Step</ReconPhaseStep>
+    <ReconPhases>Recon Phase(s)</ReconPhases>
+    <ReconPhaseUnit>Recon Phase Unit</ReconPhaseUnit>
+    <TrueStack>StackRecon</TrueStack>
+    <TemporalResolution>Temporal Resolution [ms]</TemporalResolution>
+    <UseScanRepetitionForRecon>Flex ECG Recon</UseScanRepetitionForRecon>
+    <EcgDocumentation>ECG Documentation</EcgDocumentation>
+    <AutoRecon>Auto Recon</AutoRecon>
+    <AutoReconReferenceLines>Recon Ref. Lines</AutoReconReferenceLines>
+    <BodyPartExamined>Body Part Examined</BodyPartExamined>
+    <SeriesSplitting>Series Splitting</SeriesSplitting>
+    <AutoTransferNodes>Transfer Nodes</AutoTransferNodes>
+    <AutoTransferEnabled>Auto Transfer</AutoTransferEnabled>
+    <Workplace>Workplace</Workplace>
+    <AutoViewing>Auto CT View&amp;GO</AutoViewing>
+    <ViewAndGoDataroles>CT View&amp;GO Dataroles</ViewAndGoDataroles>
+    <AutoFilming>Auto Printing</AutoFilming>
+    <AutoPrintingLayout>Auto Printing Layout</AutoPrintingLayout>
+    <AdvancedVisualization>Advanced Visualization</AdvancedVisualization>
+    <AdvancedVisualizationDataRoles>Advanced Visualization Dataroles</AdvancedVisualizationDataRoles>
+    <LocalApplication>Local Application Workflow</LocalApplication>
+    <SyngoViaApplication>syngo.via Workflow</SyngoViaApplication>
+    <SyngoViaDataroles>syngo.via Datarole</SyngoViaDataroles>
+    <SpecialReconType>Inline Results</SpecialReconType>
+    <PacsReadyNoduleTypes>Filtering of Lung CAD Markers</PacsReadyNoduleTypes>
+    <PacsReadyStartPosition>Start Position [mm]</PacsReadyStartPosition>
+    <PacsReadyEndPosition>End Position [mm]</PacsReadyEndPosition>
+    <PacsReadyCprType>CPR Type</PacsReadyCprType>
+    <PacsReadyVessel>Vessel</PacsReadyVessel>
+    <PacsReadyVesselLabel>Vessel Label</PacsReadyVesselLabel>
+    <PacsReadyOrgan>Organ</PacsReadyOrgan>
+    <PacsReadyAngleBetweenImages>Angle Between Images [°]</PacsReadyAngleBetweenImages>
+    <PacsReadyStartAngle>Start Angle [°]</PacsReadyStartAngle>
+    <PacsReadyEndAngle>End Angle [°]</PacsReadyEndAngle>
+    <PacsReadyVrtPreset>VRT Preset</PacsReadyVrtPreset>
+    <PacsReadyRemoveTable>Remove Table</PacsReadyRemoveTable>
+    <PacsReadyRemoveBones>Remove Bones</PacsReadyRemoveBones>
+    <PacsReadyIsInvertedViewingDirection>Viewing Direction</PacsReadyIsInvertedViewingDirection>
+    <PacsReadyHighResolution>High Resolution</PacsReadyHighResolution>
+    <PacsReadyApplicationClassName>Application Class</PacsReadyApplicationClassName>
+    <PacsReadyAutoKev>Auto keV</PacsReadyAutoKev>
+    <PacsReadyEnergy>Energy [keV]</PacsReadyEnergy>
+    <PacsReadyShowPlaques>Show Plaques</PacsReadyShowPlaques>
+    <PacsReadyDataset>Data Set</PacsReadyDataset>
+    <PacsReadyScoringMode>Scoring Mode</PacsReadyScoringMode>
+    <PacsReadyReferenceDatabase>Reference Database</PacsReadyReferenceDatabase>
+    <PacsReadyStructureTemplateSelectionMode>Structure Template Selection Mode</PacsReadyStructureTemplateSelectionMode>
+    <PacsReadyStructureTemplateToSegment>Structure Templates</PacsReadyStructureTemplateToSegment>
+    <PacsReadyLungAnalysisView>Lung Analysis View</PacsReadyLungAnalysisView>
+    <PacsReadyThickAxial>Thick Axial</PacsReadyThickAxial>
+    <PacsReadyLungLobeSegmentation>Lung Lobe Segmentation</PacsReadyLungLobeSegmentation>
+    <PacsReadyUnfoldingTypeId>Unfolding Type</PacsReadyUnfoldingTypeId>
+  </ColumnHead>
+  <SpecialColumnHead>
+    <FolderName>Folder Name</FolderName>
+    <ProtocolName>Protocol Name</ProtocolName>
+    <RangeName>Range Name</RangeName>
+    <ReconName>Recon Name</ReconName>
+    <HiddenProtocols>Hidden Protocol</HiddenProtocols>
+    <HiddenRange>Hidden Range</HiddenRange>
+    <InRoomScannable>CT Scan&amp;GO Approved</InRoomScannable>
+  </SpecialColumnHead>
+  <Mode>
+    <Folder>
+      <FolderName>Customer Protocols</FolderName>
+      <Body>
+        <BodySize>Adult</BodySize>
+        <Region>
+          <RegionName>Head</RegionName>
+          <Protocol>
+            <ScanEntry ScanType="Protocol">
+              <Name>Öron (Adult)</Name>
+              <HiddenProtocols>no</HiddenProtocols>
+              <InRoomScannable>yes</InRoomScannable>
+              <ProtocolDescription rowspan="8">
+                <content><![CDATA[Vuxenprotokoll; ej Unga eller barn.]]></content>
+              </ProtocolDescription>
+              <RTPatientMarking />
+              <BodySize />
+              <OrganCharacteristics />
+              <TargetRegion />
+              <PresetName />
+              <BasicScanMode />
+              <UserAvailableBasicScanModes />
+              <DecisionTreeStrategyReviewEnabled />
+              <DecisionTrees />
+              <DecisionTreeStrategies />
+              <RangeTilt />
+              <AcquiredSlices />
+              <ScanDirection />
+              <TableDirection />
+              <PatientPosition />
+              <FeedScan />
+              <NumberOfScans />
+              <TubePositionGantryRelated />
+              <PlannedTopoLength />
+              <CareDose4DAndCareKv />
+              <CareDoseEnabled />
+              <CareKvQualityRefmAs120KvModelIndependent />
+              <ImageQualityMaterialContrast />
+              <CareKvGrouping />
+              <TubeVoltage />
+              <DualVoltageTubeVoltage />
+              <ReferenceMilliAmpereSecondsEffective />
+              <DualVoltageReferenceMilliAmpereSecondsEffectiveLow />
+              <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh />
+              <MilliAmpereSecondsEffective />
+              <DualVoltageMilliAmpereSecondsEffectiveLow />
+              <DualVoltageMilliAmpereSecondsEffectiveHigh />
+              <TubeCurrent />
+              <MinimumVoltageWithXRayMaterial />
+              <MaximumVoltageWithXRayMaterial />
+              <CTDoseIndexWeighted />
+              <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter />
+              <NextCTDoseIndex />
+              <DoseLengthProductEffective />
+              <NextDoseLengthProduct />
+              <CTDoseIndexWeightedLimit />
+              <CTDoseIndexWeightedLimitForFluoro />
+              <DoseLengthProductEffectiveLimit />
+              <DoseLengthProductEffectiveLimitForFluoro />
+              <EnergyThresholds />
+              <ShapedFilter />
+              <HandCareSegment />
+              <AverageEffectiveTubeCurrent />
+              <PitchFactor />
+              <RotationTime />
+              <ScanTime />
+              <ExaminationTime />
+              <ImageCycleTime />
+              <AudioInstructionText />
+              <AudioInstructionCommand />
+              <PostInstructionDelay />
+              <IntendedAbsoluteStartDelay />
+              <PostBolusDelayBolusTracking />
+              <PostBolusDelayTestbolus />
+              <AutoRoiOption />
+              <HuTriggerLevel />
+              <AutoTrigger />
+              <ExposurePattern />
+              <MemoContent />
+              <MetalDetection />
+              <QualityCheck />
+              <QualityCheckImageType />
+              <QualityCheckOrientation />
+              <ScanStart />
+              <AutoRangeReferenceLines />
+              <MaximumExamTime />
+              <MaximumMAsDecrease />
+              <MinimumPitch />
+              <PulsingMode />
+              <PulsingStart />
+              <PulsingEnd />
+              <PulsingUnit />
+              <EstimatedHeartrate />
+              <EstimatedRespiratoryRate />
+              <EstimatedTemporalResolution />
+              <IsCoupled />
+              <ContrastProtocol />
+              <SliceThickness />
+              <Increment />
+              <SlicesPerRotation />
+              <NumberOfImages />
+              <Comment1 />
+              <Comment2 />
+              <ReconPattern />
+              <ReconCompoundStrategy />
+              <DirectDE />
+              <AutoKeV />
+              <DirectKeV />
+              <SpecialReconType />
+              <MultiRecons />
+              <FixAxial />
+              <ImageType />
+              <Window />
+              <FastWindow />
+              <Kernel />
+              <IterativeRecon />
+              <IterativeReconStrength />
+              <BHC />
+              <BHCMaterial />
+              <IMar />
+              <IMarType />
+              <ImageOrientation />
+              <ImageOrder />
+              <FastPlanning />
+              <FastPlanningFov />
+              <Fast3D />
+              <ImageMatrixSize />
+              <ImageMatrix />
+              <FoVWidth />
+              <FoVHeight />
+              <FoVCenterX />
+              <FoVCenterY />
+              <Mirror />
+              <HDFoV />
+              <PhysioReconstructionType />
+              <ReconPhaseStep />
+              <ReconPhases />
+              <ReconPhaseUnit />
+              <TrueStack />
+              <TemporalResolution />
+              <UseScanRepetitionForRecon />
+              <EcgDocumentation />
+              <AutoRecon />
+              <AutoReconReferenceLines />
+              <BodyPartExamined />
+              <SeriesSplitting />
+              <AutoTransferNodes />
+              <AutoTransferEnabled />
+              <Workplace />
+              <AutoViewing />
+              <ViewAndGoDataroles />
+              <AutoFilming />
+              <AutoPrintingLayout />
+              <AdvancedVisualization />
+              <AdvancedVisualizationDataRoles />
+              <LocalApplication />
+              <SyngoViaApplication />
+              <SyngoViaDataroles />
+              <SpecialReconType />
+              <PacsReadyNoduleTypes />
+              <PacsReadyStartPosition />
+              <PacsReadyEndPosition />
+              <PacsReadyCprType />
+              <PacsReadyVessel />
+              <PacsReadyVesselLabel />
+              <PacsReadyOrgan />
+              <PacsReadyAngleBetweenImages />
+              <PacsReadyStartAngle />
+              <PacsReadyEndAngle />
+              <PacsReadyVrtPreset />
+              <PacsReadyRemoveTable />
+              <PacsReadyRemoveBones />
+              <PacsReadyIsInvertedViewingDirection />
+              <PacsReadyHighResolution />
+              <PacsReadyApplicationClassName />
+              <PacsReadyAutoKev />
+              <PacsReadyEnergy />
+              <PacsReadyShowPlaques />
+              <PacsReadyDataset />
+              <PacsReadyScoringMode />
+              <PacsReadyReferenceDatabase />
+              <PacsReadyStructureTemplateSelectionMode />
+              <PacsReadyStructureTemplateToSegment />
+              <PacsReadyLungAnalysisView />
+              <PacsReadyThickAxial />
+              <PacsReadyLungLobeSegmentation />
+              <PacsReadyUnfoldingTypeId />
+              <ScanEntry ScanType="Range">
+                <Name>Topogram</Name>
+                <HiddenProtocols />
+                <HiddenRange>
+                </HiddenRange>
+                <InRoomScannable />
+                <ProtocolDescription />
+                <RTPatientMarking />
+                <BodySize>Adult</BodySize>
+                <OrganCharacteristics />
+                <TargetRegion>Head</TargetRegion>
+                <PresetName>Head</PresetName>
+                <BasicScanMode>ScanplanningTopoAdultQuantumSn</BasicScanMode>
+                <UserAvailableBasicScanModes>ScanplanningTopoAdultQuantumSn</UserAvailableBasicScanModes>
+                <DecisionTreeStrategyReviewEnabled>Off</DecisionTreeStrategyReviewEnabled>
+                <DecisionTrees>
+                </DecisionTrees>
+                <DecisionTreeStrategies />
+                <RangeTilt />
+                <AcquiredSlices>36 x 0,20</AcquiredSlices>
+                <ScanDirection>Feet to Head</ScanDirection>
+                <TableDirection>Out</TableDirection>
+                <PatientPosition>Head First - Supine (HFS)</PatientPosition>
+                <FeedScan />
+                <NumberOfScans />
+                <TubePositionGantryRelated>Left</TubePositionGantryRelated>
+                <PlannedTopoLength>240</PlannedTopoLength>
+                <CareDose4DAndCareKv />
+                <CareDoseEnabled />
+                <CareKvQualityRefmAs120KvModelIndependent />
+                <ImageQualityMaterialContrast />
+                <CareKvGrouping />
+                <TubeVoltage>Sn 140</TubeVoltage>
+                <DualVoltageTubeVoltage />
+                <ReferenceMilliAmpereSecondsEffective />
+                <DualVoltageReferenceMilliAmpereSecondsEffectiveLow />
+                <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh />
+                <MilliAmpereSecondsEffective />
+                <DualVoltageMilliAmpereSecondsEffectiveLow />
+                <DualVoltageMilliAmpereSecondsEffectiveHigh />
+                <TubeCurrent>55</TubeCurrent>
+                <MinimumVoltageWithXRayMaterial />
+                <MaximumVoltageWithXRayMaterial />
+                <CTDoseIndexWeighted>SPR (16 cm) 0,13</CTDoseIndexWeighted>
+                <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter />
+                <NextCTDoseIndex />
+                <DoseLengthProductEffective>3,03</DoseLengthProductEffective>
+                <NextDoseLengthProduct />
+                <CTDoseIndexWeightedLimit>0,00</CTDoseIndexWeightedLimit>
+                <CTDoseIndexWeightedLimitForFluoro />
+                <DoseLengthProductEffectiveLimit>0,0</DoseLengthProductEffectiveLimit>
+                <DoseLengthProductEffectiveLimitForFluoro />
+                <EnergyThresholds />
+                <ShapedFilter>Standard</ShapedFilter>
+                <HandCareSegment />
+                <AverageEffectiveTubeCurrent>55,0</AverageEffectiveTubeCurrent>
+                <PitchFactor />
+                <RotationTime />
+                <ScanTime />
+                <ExaminationTime>1,49</ExaminationTime>
+                <ImageCycleTime />
+                <AudioInstructionText>None</AudioInstructionText>
+                <AudioInstructionCommand />
+                <PostInstructionDelay />
+                <IntendedAbsoluteStartDelay>2</IntendedAbsoluteStartDelay>
+                <PostBolusDelayBolusTracking />
+                <PostBolusDelayTestbolus />
+                <AutoRoiOption />
+                <HuTriggerLevel />
+                <AutoTrigger />
+                <ExposurePattern />
+                <MemoContent>
+                </MemoContent>
+                <MetalDetection>On</MetalDetection>
+                <QualityCheck />
+                <QualityCheckImageType />
+                <QualityCheckOrientation />
+                <ScanStart>START key</ScanStart>
+                <AutoRangeReferenceLines />
+                <MaximumExamTime />
+                <MaximumMAsDecrease />
+                <MinimumPitch />
+                <PulsingMode />
+                <PulsingStart />
+                <PulsingEnd />
+                <PulsingUnit />
+                <EstimatedHeartrate />
+                <EstimatedRespiratoryRate />
+                <EstimatedTemporalResolution />
+                <IsCoupled />
+                <ContrastProtocol />
+                <SliceThickness />
+                <Increment />
+                <SlicesPerRotation />
+                <NumberOfImages />
+                <Comment1 />
+                <Comment2 />
+                <ReconPattern />
+                <ReconCompoundStrategy />
+                <DirectDE />
+                <AutoKeV />
+                <DirectKeV />
+                <SpecialReconType />
+                <MultiRecons />
+                <FixAxial />
+                <ImageType />
+                <Window />
+                <FastWindow />
+                <Kernel />
+                <IterativeRecon />
+                <IterativeReconStrength />
+                <BHC />
+                <BHCMaterial />
+                <IMar />
+                <IMarType />
+                <ImageOrientation />
+                <ImageOrder />
+                <FastPlanning />
+                <FastPlanningFov />
+                <Fast3D />
+                <ImageMatrixSize />
+                <ImageMatrix />
+                <FoVWidth />
+                <FoVHeight />
+                <FoVCenterX />
+                <FoVCenterY />
+                <Mirror />
+                <HDFoV />
+                <PhysioReconstructionType />
+                <ReconPhaseStep />
+                <ReconPhases />
+                <ReconPhaseUnit />
+                <TrueStack />
+                <TemporalResolution />
+                <UseScanRepetitionForRecon />
+                <EcgDocumentation />
+                <AutoRecon />
+                <AutoReconReferenceLines />
+                <BodyPartExamined />
+                <SeriesSplitting />
+                <AutoTransferNodes />
+                <AutoTransferEnabled />
+                <Workplace />
+                <AutoViewing />
+                <ViewAndGoDataroles />
+                <AutoFilming />
+                <AutoPrintingLayout />
+                <AdvancedVisualization />
+                <AdvancedVisualizationDataRoles />
+                <LocalApplication />
+                <SyngoViaApplication />
+                <SyngoViaDataroles />
+                <SpecialReconType />
+                <PacsReadyNoduleTypes />
+                <PacsReadyStartPosition />
+                <PacsReadyEndPosition />
+                <PacsReadyCprType />
+                <PacsReadyVessel />
+                <PacsReadyVesselLabel />
+                <PacsReadyOrgan />
+                <PacsReadyAngleBetweenImages />
+                <PacsReadyStartAngle />
+                <PacsReadyEndAngle />
+                <PacsReadyVrtPreset />
+                <PacsReadyRemoveTable />
+                <PacsReadyRemoveBones />
+                <PacsReadyIsInvertedViewingDirection />
+                <PacsReadyHighResolution />
+                <PacsReadyApplicationClassName />
+                <PacsReadyAutoKev />
+                <PacsReadyEnergy />
+                <PacsReadyShowPlaques />
+                <PacsReadyDataset />
+                <PacsReadyScoringMode />
+                <PacsReadyReferenceDatabase />
+                <PacsReadyStructureTemplateSelectionMode />
+                <PacsReadyStructureTemplateToSegment />
+                <PacsReadyLungAnalysisView />
+                <PacsReadyThickAxial />
+                <PacsReadyLungLobeSegmentation />
+                <PacsReadyUnfoldingTypeId />
+                <ScanEntry ScanType="ReconCompound" NoOfSubRecons="1">
+                  <Name NoOfSubRecons="1">
+                    <SubRecon>Topogram 0,20 Tx20 sag</SubRecon>
+                  </Name>
+                  <HiddenProtocols />
+                  <HiddenRange />
+                  <InRoomScannable />
+                  <ProtocolDescription NoOfSubRecons="1" />
+                  <RTPatientMarking NoOfSubRecons="1" />
+                  <BodySize NoOfSubRecons="1" />
+                  <OrganCharacteristics NoOfSubRecons="1" />
+                  <TargetRegion NoOfSubRecons="1" />
+                  <PresetName NoOfSubRecons="1" />
+                  <BasicScanMode NoOfSubRecons="1" />
+                  <UserAvailableBasicScanModes NoOfSubRecons="1" />
+                  <DecisionTreeStrategyReviewEnabled NoOfSubRecons="1" />
+                  <DecisionTrees NoOfSubRecons="1" />
+                  <DecisionTreeStrategies NoOfSubRecons="1" />
+                  <RangeTilt NoOfSubRecons="1" />
+                  <AcquiredSlices NoOfSubRecons="1" />
+                  <ScanDirection NoOfSubRecons="1" />
+                  <TableDirection NoOfSubRecons="1" />
+                  <PatientPosition NoOfSubRecons="1" />
+                  <FeedScan NoOfSubRecons="1" />
+                  <NumberOfScans NoOfSubRecons="1" />
+                  <TubePositionGantryRelated NoOfSubRecons="1" />
+                  <PlannedTopoLength NoOfSubRecons="1" />
+                  <CareDose4DAndCareKv NoOfSubRecons="1" />
+                  <CareDoseEnabled NoOfSubRecons="1" />
+                  <CareKvQualityRefmAs120KvModelIndependent NoOfSubRecons="1" />
+                  <ImageQualityMaterialContrast NoOfSubRecons="1" />
+                  <CareKvGrouping NoOfSubRecons="1" />
+                  <TubeVoltage NoOfSubRecons="1" />
+                  <DualVoltageTubeVoltage NoOfSubRecons="1" />
+                  <ReferenceMilliAmpereSecondsEffective NoOfSubRecons="1" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveLow NoOfSubRecons="1" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh NoOfSubRecons="1" />
+                  <MilliAmpereSecondsEffective NoOfSubRecons="1" />
+                  <DualVoltageMilliAmpereSecondsEffectiveLow NoOfSubRecons="1" />
+                  <DualVoltageMilliAmpereSecondsEffectiveHigh NoOfSubRecons="1" />
+                  <TubeCurrent NoOfSubRecons="1" />
+                  <MinimumVoltageWithXRayMaterial NoOfSubRecons="1" />
+                  <MaximumVoltageWithXRayMaterial NoOfSubRecons="1" />
+                  <CTDoseIndexWeighted NoOfSubRecons="1" />
+                  <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter NoOfSubRecons="1" />
+                  <NextCTDoseIndex NoOfSubRecons="1" />
+                  <DoseLengthProductEffective NoOfSubRecons="1" />
+                  <NextDoseLengthProduct NoOfSubRecons="1" />
+                  <CTDoseIndexWeightedLimit NoOfSubRecons="1" />
+                  <CTDoseIndexWeightedLimitForFluoro NoOfSubRecons="1" />
+                  <DoseLengthProductEffectiveLimit NoOfSubRecons="1" />
+                  <DoseLengthProductEffectiveLimitForFluoro NoOfSubRecons="1" />
+                  <EnergyThresholds NoOfSubRecons="1" />
+                  <ShapedFilter NoOfSubRecons="1" />
+                  <HandCareSegment NoOfSubRecons="1" />
+                  <AverageEffectiveTubeCurrent NoOfSubRecons="1" />
+                  <PitchFactor NoOfSubRecons="1" />
+                  <RotationTime NoOfSubRecons="1" />
+                  <ScanTime NoOfSubRecons="1" />
+                  <ExaminationTime NoOfSubRecons="1" />
+                  <ImageCycleTime NoOfSubRecons="1" />
+                  <AudioInstructionText NoOfSubRecons="1" />
+                  <AudioInstructionCommand NoOfSubRecons="1" />
+                  <PostInstructionDelay NoOfSubRecons="1" />
+                  <IntendedAbsoluteStartDelay NoOfSubRecons="1" />
+                  <PostBolusDelayBolusTracking NoOfSubRecons="1" />
+                  <PostBolusDelayTestbolus NoOfSubRecons="1" />
+                  <AutoRoiOption NoOfSubRecons="1" />
+                  <HuTriggerLevel NoOfSubRecons="1" />
+                  <AutoTrigger NoOfSubRecons="1" />
+                  <ExposurePattern NoOfSubRecons="1" />
+                  <MemoContent NoOfSubRecons="1" />
+                  <MetalDetection NoOfSubRecons="1" />
+                  <QualityCheck NoOfSubRecons="1" />
+                  <QualityCheckImageType NoOfSubRecons="1" />
+                  <QualityCheckOrientation NoOfSubRecons="1" />
+                  <ScanStart NoOfSubRecons="1" />
+                  <AutoRangeReferenceLines NoOfSubRecons="1" />
+                  <MaximumExamTime NoOfSubRecons="1" />
+                  <MaximumMAsDecrease NoOfSubRecons="1" />
+                  <MinimumPitch NoOfSubRecons="1" />
+                  <PulsingMode NoOfSubRecons="1" />
+                  <PulsingStart NoOfSubRecons="1" />
+                  <PulsingEnd NoOfSubRecons="1" />
+                  <PulsingUnit NoOfSubRecons="1" />
+                  <EstimatedHeartrate NoOfSubRecons="1" />
+                  <EstimatedRespiratoryRate NoOfSubRecons="1" />
+                  <EstimatedTemporalResolution NoOfSubRecons="1" />
+                  <IsCoupled NoOfSubRecons="1" />
+                  <ContrastProtocol NoOfSubRecons="1" />
+                  <SliceThickness NoOfSubRecons="1" />
+                  <Increment NoOfSubRecons="1" />
+                  <SlicesPerRotation NoOfSubRecons="1" />
+                  <NumberOfImages NoOfSubRecons="1" />
+                  <Comment1 NoOfSubRecons="1">
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment1>
+                  <Comment2 NoOfSubRecons="1">
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment2>
+                  <ReconPattern NoOfSubRecons="1" />
+                  <ReconCompoundStrategy NoOfSubRecons="1" />
+                  <DirectDE NoOfSubRecons="1" />
+                  <AutoKeV NoOfSubRecons="1" />
+                  <DirectKeV NoOfSubRecons="1" />
+                  <SpecialReconType NoOfSubRecons="1" />
+                  <MultiRecons NoOfSubRecons="1" />
+                  <FixAxial NoOfSubRecons="1" />
+                  <ImageType NoOfSubRecons="1" />
+                  <Window NoOfSubRecons="1">
+                    <SubRecon>Topogram Head</SubRecon>
+                  </Window>
+                  <FastWindow NoOfSubRecons="1" />
+                  <Kernel NoOfSubRecons="1">
+                    <SubRecon>Tx20</SubRecon>
+                  </Kernel>
+                  <IterativeRecon NoOfSubRecons="1" />
+                  <IterativeReconStrength NoOfSubRecons="1" />
+                  <BHC NoOfSubRecons="1" />
+                  <BHCMaterial NoOfSubRecons="1" />
+                  <IMar NoOfSubRecons="1" />
+                  <IMarType NoOfSubRecons="1" />
+                  <ImageOrientation NoOfSubRecons="1" />
+                  <ImageOrder NoOfSubRecons="1" />
+                  <FastPlanning NoOfSubRecons="1" />
+                  <FastPlanningFov NoOfSubRecons="1" />
+                  <Fast3D NoOfSubRecons="1" />
+                  <ImageMatrixSize NoOfSubRecons="1" />
+                  <ImageMatrix NoOfSubRecons="1" />
+                  <FoVWidth NoOfSubRecons="1" />
+                  <FoVHeight NoOfSubRecons="1" />
+                  <FoVCenterX NoOfSubRecons="1" />
+                  <FoVCenterY NoOfSubRecons="1" />
+                  <Mirror NoOfSubRecons="1" />
+                  <HDFoV NoOfSubRecons="1" />
+                  <PhysioReconstructionType NoOfSubRecons="1" />
+                  <ReconPhaseStep NoOfSubRecons="1" />
+                  <ReconPhases NoOfSubRecons="1" />
+                  <ReconPhaseUnit NoOfSubRecons="1" />
+                  <TrueStack NoOfSubRecons="1" />
+                  <TemporalResolution NoOfSubRecons="1" />
+                  <UseScanRepetitionForRecon NoOfSubRecons="1" />
+                  <EcgDocumentation NoOfSubRecons="1" />
+                  <AutoRecon NoOfSubRecons="1" />
+                  <AutoReconReferenceLines NoOfSubRecons="1" />
+                  <BodyPartExamined NoOfSubRecons="1">
+                    <SubRecon>Head</SubRecon>
+                  </BodyPartExamined>
+                  <SeriesSplitting NoOfSubRecons="1" />
+                  <AutoTransferNodes NoOfSubRecons="1">
+                    <SubRecon>PACS</SubRecon>
+                  </AutoTransferNodes>
+                  <AutoTransferEnabled NoOfSubRecons="1">
+                    <SubRecon>On</SubRecon>
+                  </AutoTransferEnabled>
+                  <Workplace NoOfSubRecons="1">
+                    <SubRecon>Acquisition Workplace</SubRecon>
+                  </Workplace>
+                  <AutoViewing NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </AutoViewing>
+                  <ViewAndGoDataroles NoOfSubRecons="1" />
+                  <AutoFilming NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </AutoFilming>
+                  <AutoPrintingLayout NoOfSubRecons="1" />
+                  <AdvancedVisualization NoOfSubRecons="1" />
+                  <AdvancedVisualizationDataRoles NoOfSubRecons="1" />
+                  <LocalApplication NoOfSubRecons="1" />
+                  <SyngoViaApplication NoOfSubRecons="1" />
+                  <SyngoViaDataroles NoOfSubRecons="1" />
+                  <SpecialReconType NoOfSubRecons="1" />
+                  <PacsReadyNoduleTypes NoOfSubRecons="1" />
+                  <PacsReadyStartPosition NoOfSubRecons="1" />
+                  <PacsReadyEndPosition NoOfSubRecons="1" />
+                  <PacsReadyCprType NoOfSubRecons="1" />
+                  <PacsReadyVessel NoOfSubRecons="1" />
+                  <PacsReadyVesselLabel NoOfSubRecons="1" />
+                  <PacsReadyOrgan NoOfSubRecons="1" />
+                  <PacsReadyAngleBetweenImages NoOfSubRecons="1" />
+                  <PacsReadyStartAngle NoOfSubRecons="1" />
+                  <PacsReadyEndAngle NoOfSubRecons="1" />
+                  <PacsReadyVrtPreset NoOfSubRecons="1" />
+                  <PacsReadyRemoveTable NoOfSubRecons="1" />
+                  <PacsReadyRemoveBones NoOfSubRecons="1" />
+                  <PacsReadyIsInvertedViewingDirection NoOfSubRecons="1" />
+                  <PacsReadyHighResolution NoOfSubRecons="1" />
+                  <PacsReadyApplicationClassName NoOfSubRecons="1" />
+                  <PacsReadyAutoKev NoOfSubRecons="1" />
+                  <PacsReadyEnergy NoOfSubRecons="1" />
+                  <PacsReadyShowPlaques NoOfSubRecons="1" />
+                  <PacsReadyDataset NoOfSubRecons="1" />
+                  <PacsReadyScoringMode NoOfSubRecons="1" />
+                  <PacsReadyReferenceDatabase NoOfSubRecons="1" />
+                  <PacsReadyStructureTemplateSelectionMode NoOfSubRecons="1" />
+                  <PacsReadyStructureTemplateToSegment NoOfSubRecons="1" />
+                  <PacsReadyLungAnalysisView NoOfSubRecons="1" />
+                  <PacsReadyThickAxial NoOfSubRecons="1" />
+                  <PacsReadyLungLobeSegmentation NoOfSubRecons="1" />
+                  <PacsReadyUnfoldingTypeId NoOfSubRecons="1" />
+                </ScanEntry>
+              </ScanEntry>
+              <ScanEntry ScanType="Range">
+                <Name>Inner Ear</Name>
+                <HiddenProtocols />
+                <HiddenRange>
+                </HiddenRange>
+                <InRoomScannable />
+                <ProtocolDescription />
+                <RTPatientMarking />
+                <BodySize>Adult</BodySize>
+                <OrganCharacteristics>Brain</OrganCharacteristics>
+                <TargetRegion>Head</TargetRegion>
+                <PresetName />
+                <BasicScanMode>RoutineSpiralAdultHeadHighresultraQuantumplus</BasicScanMode>
+                <UserAvailableBasicScanModes>RoutineSpiralAdultHeadQuantumplus; RoutineSpiralAdultHeadHighresultraQuantumplus; RoutineSpiralAdultHeadQuantumSn; RoutineSpiralAdultHeadHighresultraQuantumSn; RoutineSpiralAdultHeadQuantumplusXcare; RoutineSpiralAdultHeadQuantumSnXcare</UserAvailableBasicScanModes>
+                <DecisionTreeStrategyReviewEnabled>Off</DecisionTreeStrategyReviewEnabled>
+                <DecisionTrees>
+                </DecisionTrees>
+                <DecisionTreeStrategies />
+                <RangeTilt />
+                <AcquiredSlices>120 x 0,20</AcquiredSlices>
+                <ScanDirection>Feet to Head</ScanDirection>
+                <TableDirection>Out</TableDirection>
+                <PatientPosition>Head First - Supine (HFS)</PatientPosition>
+                <FeedScan />
+                <NumberOfScans />
+                <TubePositionGantryRelated />
+                <PlannedTopoLength />
+                <CareDose4DAndCareKv>Full</CareDose4DAndCareKv>
+                <CareDoseEnabled />
+                <CareKvQualityRefmAs120KvModelIndependent>110</CareKvQualityRefmAs120KvModelIndependent>
+                <ImageQualityMaterialContrast>Non-Contrast</ImageQualityMaterialContrast>
+                <CareKvGrouping>Off</CareKvGrouping>
+                <TubeVoltage>120</TubeVoltage>
+                <DualVoltageTubeVoltage />
+                <ReferenceMilliAmpereSecondsEffective>99</ReferenceMilliAmpereSecondsEffective>
+                <DualVoltageReferenceMilliAmpereSecondsEffectiveLow />
+                <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh />
+                <MilliAmpereSecondsEffective>99</MilliAmpereSecondsEffective>
+                <DualVoltageMilliAmpereSecondsEffectiveLow />
+                <DualVoltageMilliAmpereSecondsEffectiveHigh />
+                <TubeCurrent />
+                <MinimumVoltageWithXRayMaterial>120</MinimumVoltageWithXRayMaterial>
+                <MaximumVoltageWithXRayMaterial>140</MaximumVoltageWithXRayMaterial>
+                <CTDoseIndexWeighted>(16 cm) 17,0</CTDoseIndexWeighted>
+                <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter />
+                <NextCTDoseIndex />
+                <DoseLengthProductEffective>178</DoseLengthProductEffective>
+                <NextDoseLengthProduct />
+                <CTDoseIndexWeightedLimit>0,00</CTDoseIndexWeightedLimit>
+                <CTDoseIndexWeightedLimitForFluoro />
+                <DoseLengthProductEffectiveLimit>0,0</DoseLengthProductEffectiveLimit>
+                <DoseLengthProductEffectiveLimitForFluoro />
+                <EnergyThresholds />
+                <ShapedFilter>Standard</ShapedFilter>
+                <HandCareSegment />
+                <AverageEffectiveTubeCurrent>168,3</AverageEffectiveTubeCurrent>
+                <PitchFactor>0,85</PitchFactor>
+                <RotationTime>0,50</RotationTime>
+                <ScanTime />
+                <ExaminationTime>3,63</ExaminationTime>
+                <ImageCycleTime />
+                <AudioInstructionText>None</AudioInstructionText>
+                <AudioInstructionCommand />
+                <PostInstructionDelay />
+                <IntendedAbsoluteStartDelay>2</IntendedAbsoluteStartDelay>
+                <PostBolusDelayBolusTracking />
+                <PostBolusDelayTestbolus />
+                <AutoRoiOption />
+                <HuTriggerLevel />
+                <AutoTrigger />
+                <ExposurePattern />
+                <MemoContent>
+                </MemoContent>
+                <MetalDetection />
+                <QualityCheck>Manual</QualityCheck>
+                <QualityCheckImageType>MPR</QualityCheckImageType>
+                <QualityCheckOrientation>Coronal</QualityCheckOrientation>
+                <ScanStart>START key</ScanStart>
+                <AutoRangeReferenceLines>Off</AutoRangeReferenceLines>
+                <MaximumExamTime>6</MaximumExamTime>
+                <MaximumMAsDecrease>25</MaximumMAsDecrease>
+                <MinimumPitch>0,10</MinimumPitch>
+                <PulsingMode />
+                <PulsingStart />
+                <PulsingEnd />
+                <PulsingUnit />
+                <EstimatedHeartrate />
+                <EstimatedRespiratoryRate />
+                <EstimatedTemporalResolution />
+                <IsCoupled>Off</IsCoupled>
+                <ContrastProtocol />
+                <SliceThickness />
+                <Increment />
+                <SlicesPerRotation />
+                <NumberOfImages />
+                <Comment1 />
+                <Comment2 />
+                <ReconPattern />
+                <ReconCompoundStrategy />
+                <DirectDE />
+                <AutoKeV />
+                <DirectKeV />
+                <SpecialReconType />
+                <MultiRecons />
+                <FixAxial />
+                <ImageType />
+                <Window />
+                <FastWindow />
+                <Kernel />
+                <IterativeRecon />
+                <IterativeReconStrength />
+                <BHC />
+                <BHCMaterial />
+                <IMar />
+                <IMarType />
+                <ImageOrientation />
+                <ImageOrder />
+                <FastPlanning />
+                <FastPlanningFov />
+                <Fast3D />
+                <ImageMatrixSize />
+                <ImageMatrix />
+                <FoVWidth />
+                <FoVHeight />
+                <FoVCenterX />
+                <FoVCenterY />
+                <Mirror />
+                <HDFoV />
+                <PhysioReconstructionType />
+                <ReconPhaseStep />
+                <ReconPhases />
+                <ReconPhaseUnit />
+                <TrueStack />
+                <TemporalResolution />
+                <UseScanRepetitionForRecon />
+                <EcgDocumentation />
+                <AutoRecon />
+                <AutoReconReferenceLines />
+                <BodyPartExamined />
+                <SeriesSplitting />
+                <AutoTransferNodes />
+                <AutoTransferEnabled />
+                <Workplace />
+                <AutoViewing />
+                <ViewAndGoDataroles />
+                <AutoFilming />
+                <AutoPrintingLayout />
+                <AdvancedVisualization />
+                <AdvancedVisualizationDataRoles />
+                <LocalApplication />
+                <SyngoViaApplication />
+                <SyngoViaDataroles />
+                <SpecialReconType />
+                <PacsReadyNoduleTypes />
+                <PacsReadyStartPosition />
+                <PacsReadyEndPosition />
+                <PacsReadyCprType />
+                <PacsReadyVessel />
+                <PacsReadyVesselLabel />
+                <PacsReadyOrgan />
+                <PacsReadyAngleBetweenImages />
+                <PacsReadyStartAngle />
+                <PacsReadyEndAngle />
+                <PacsReadyVrtPreset />
+                <PacsReadyRemoveTable />
+                <PacsReadyRemoveBones />
+                <PacsReadyIsInvertedViewingDirection />
+                <PacsReadyHighResolution />
+                <PacsReadyApplicationClassName />
+                <PacsReadyAutoKev />
+                <PacsReadyEnergy />
+                <PacsReadyShowPlaques />
+                <PacsReadyDataset />
+                <PacsReadyScoringMode />
+                <PacsReadyReferenceDatabase />
+                <PacsReadyStructureTemplateSelectionMode />
+                <PacsReadyStructureTemplateToSegment />
+                <PacsReadyLungAnalysisView />
+                <PacsReadyThickAxial />
+                <PacsReadyLungLobeSegmentation />
+                <PacsReadyUnfoldingTypeId />
+                <ScanEntry ScanType="ReconCompound" NoOfSubRecons="2">
+                  <Name NoOfSubRecons="2">
+                    <SubRecon>Inner Ear 0,20 Hr72 Q3</SubRecon>
+                    <SubRecon>Inner Ear 0,20 Hr48 Q3</SubRecon>
+                  </Name>
+                  <HiddenProtocols />
+                  <HiddenRange />
+                  <InRoomScannable />
+                  <ProtocolDescription NoOfSubRecons="2" />
+                  <RTPatientMarking NoOfSubRecons="2" />
+                  <BodySize NoOfSubRecons="2" />
+                  <OrganCharacteristics NoOfSubRecons="2" />
+                  <TargetRegion NoOfSubRecons="2" />
+                  <PresetName NoOfSubRecons="2" />
+                  <BasicScanMode NoOfSubRecons="2" />
+                  <UserAvailableBasicScanModes NoOfSubRecons="2" />
+                  <DecisionTreeStrategyReviewEnabled NoOfSubRecons="2" />
+                  <DecisionTrees NoOfSubRecons="2" />
+                  <DecisionTreeStrategies NoOfSubRecons="2" />
+                  <RangeTilt NoOfSubRecons="2" />
+                  <AcquiredSlices NoOfSubRecons="2" />
+                  <ScanDirection NoOfSubRecons="2" />
+                  <TableDirection NoOfSubRecons="2" />
+                  <PatientPosition NoOfSubRecons="2" />
+                  <FeedScan NoOfSubRecons="2" />
+                  <NumberOfScans NoOfSubRecons="2" />
+                  <TubePositionGantryRelated NoOfSubRecons="2" />
+                  <PlannedTopoLength NoOfSubRecons="2" />
+                  <CareDose4DAndCareKv NoOfSubRecons="2" />
+                  <CareDoseEnabled NoOfSubRecons="2" />
+                  <CareKvQualityRefmAs120KvModelIndependent NoOfSubRecons="2" />
+                  <ImageQualityMaterialContrast NoOfSubRecons="2" />
+                  <CareKvGrouping NoOfSubRecons="2" />
+                  <TubeVoltage NoOfSubRecons="2" />
+                  <DualVoltageTubeVoltage NoOfSubRecons="2" />
+                  <ReferenceMilliAmpereSecondsEffective NoOfSubRecons="2" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveLow NoOfSubRecons="2" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh NoOfSubRecons="2" />
+                  <MilliAmpereSecondsEffective NoOfSubRecons="2" />
+                  <DualVoltageMilliAmpereSecondsEffectiveLow NoOfSubRecons="2" />
+                  <DualVoltageMilliAmpereSecondsEffectiveHigh NoOfSubRecons="2" />
+                  <TubeCurrent NoOfSubRecons="2" />
+                  <MinimumVoltageWithXRayMaterial NoOfSubRecons="2" />
+                  <MaximumVoltageWithXRayMaterial NoOfSubRecons="2" />
+                  <CTDoseIndexWeighted NoOfSubRecons="2" />
+                  <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter NoOfSubRecons="2" />
+                  <NextCTDoseIndex NoOfSubRecons="2" />
+                  <DoseLengthProductEffective NoOfSubRecons="2" />
+                  <NextDoseLengthProduct NoOfSubRecons="2" />
+                  <CTDoseIndexWeightedLimit NoOfSubRecons="2" />
+                  <CTDoseIndexWeightedLimitForFluoro NoOfSubRecons="2" />
+                  <DoseLengthProductEffectiveLimit NoOfSubRecons="2" />
+                  <DoseLengthProductEffectiveLimitForFluoro NoOfSubRecons="2" />
+                  <EnergyThresholds NoOfSubRecons="2" />
+                  <ShapedFilter NoOfSubRecons="2" />
+                  <HandCareSegment NoOfSubRecons="2" />
+                  <AverageEffectiveTubeCurrent NoOfSubRecons="2" />
+                  <PitchFactor NoOfSubRecons="2" />
+                  <RotationTime NoOfSubRecons="2" />
+                  <ScanTime NoOfSubRecons="2" />
+                  <ExaminationTime NoOfSubRecons="2" />
+                  <ImageCycleTime NoOfSubRecons="2" />
+                  <AudioInstructionText NoOfSubRecons="2" />
+                  <AudioInstructionCommand NoOfSubRecons="2" />
+                  <PostInstructionDelay NoOfSubRecons="2" />
+                  <IntendedAbsoluteStartDelay NoOfSubRecons="2" />
+                  <PostBolusDelayBolusTracking NoOfSubRecons="2" />
+                  <PostBolusDelayTestbolus NoOfSubRecons="2" />
+                  <AutoRoiOption NoOfSubRecons="2" />
+                  <HuTriggerLevel NoOfSubRecons="2" />
+                  <AutoTrigger NoOfSubRecons="2" />
+                  <ExposurePattern NoOfSubRecons="2" />
+                  <MemoContent NoOfSubRecons="2" />
+                  <MetalDetection NoOfSubRecons="2" />
+                  <QualityCheck NoOfSubRecons="2" />
+                  <QualityCheckImageType NoOfSubRecons="2" />
+                  <QualityCheckOrientation NoOfSubRecons="2" />
+                  <ScanStart NoOfSubRecons="2" />
+                  <AutoRangeReferenceLines NoOfSubRecons="2" />
+                  <MaximumExamTime NoOfSubRecons="2" />
+                  <MaximumMAsDecrease NoOfSubRecons="2" />
+                  <MinimumPitch NoOfSubRecons="2" />
+                  <PulsingMode NoOfSubRecons="2" />
+                  <PulsingStart NoOfSubRecons="2" />
+                  <PulsingEnd NoOfSubRecons="2" />
+                  <PulsingUnit NoOfSubRecons="2" />
+                  <EstimatedHeartrate NoOfSubRecons="2" />
+                  <EstimatedRespiratoryRate NoOfSubRecons="2" />
+                  <EstimatedTemporalResolution NoOfSubRecons="2" />
+                  <IsCoupled NoOfSubRecons="2" />
+                  <ContrastProtocol NoOfSubRecons="2" />
+                  <SliceThickness NoOfSubRecons="2">
+                    <SubRecon>0,20</SubRecon>
+                  </SliceThickness>
+                  <Increment NoOfSubRecons="2">
+                    <SubRecon>0,20</SubRecon>
+                  </Increment>
+                  <SlicesPerRotation NoOfSubRecons="2" />
+                  <NumberOfImages NoOfSubRecons="2">
+                    <SubRecon>376</SubRecon>
+                    <SubRecon>376</SubRecon>
+                  </NumberOfImages>
+                  <Comment1 NoOfSubRecons="2">
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment1>
+                  <Comment2 NoOfSubRecons="2">
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment2>
+                  <ReconPattern NoOfSubRecons="2" />
+                  <ReconCompoundStrategy NoOfSubRecons="2" />
+                  <DirectDE NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                  </DirectDE>
+                  <AutoKeV NoOfSubRecons="2" />
+                  <DirectKeV NoOfSubRecons="2" />
+                  <SpecialReconType NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                  </SpecialReconType>
+                  <MultiRecons NoOfSubRecons="2">
+                    <SubRecon>Impression Multi Recons (2)</SubRecon>
+                  </MultiRecons>
+                  <FixAxial NoOfSubRecons="2">
+                    <SubRecon>On</SubRecon>
+                  </FixAxial>
+                  <ImageType NoOfSubRecons="2" />
+                  <Window NoOfSubRecons="2">
+                    <SubRecon>Inner Ear</SubRecon>
+                    <SubRecon>Inner Ear</SubRecon>
+                  </Window>
+                  <FastWindow NoOfSubRecons="2">
+                    <SubRecon>On</SubRecon>
+                    <SubRecon>On</SubRecon>
+                  </FastWindow>
+                  <Kernel NoOfSubRecons="2">
+                    <SubRecon>Hr72</SubRecon>
+                    <SubRecon>Hr48</SubRecon>
+                  </Kernel>
+                  <IterativeRecon NoOfSubRecons="2">
+                    <SubRecon>On</SubRecon>
+                    <SubRecon>On</SubRecon>
+                  </IterativeRecon>
+                  <IterativeReconStrength NoOfSubRecons="2">
+                    <SubRecon>3</SubRecon>
+                    <SubRecon>3</SubRecon>
+                  </IterativeReconStrength>
+                  <BHC NoOfSubRecons="2">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </BHC>
+                  <BHCMaterial NoOfSubRecons="2" />
+                  <IMar NoOfSubRecons="2">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </IMar>
+                  <IMarType NoOfSubRecons="2" />
+                  <ImageOrientation NoOfSubRecons="2">
+                    <SubRecon>Axial</SubRecon>
+                  </ImageOrientation>
+                  <ImageOrder NoOfSubRecons="2">
+                    <SubRecon>Feet to Head</SubRecon>
+                  </ImageOrder>
+                  <FastPlanning NoOfSubRecons="2">
+                    <SubRecon>Head Special - Inner Ear - No Tilt</SubRecon>
+                  </FastPlanning>
+                  <FastPlanningFov NoOfSubRecons="2">
+                    <SubRecon>Narrow</SubRecon>
+                  </FastPlanningFov>
+                  <Fast3D NoOfSubRecons="2" />
+                  <ImageMatrixSize NoOfSubRecons="2">
+                    <SubRecon>1024</SubRecon>
+                    <SubRecon>1024</SubRecon>
+                  </ImageMatrixSize>
+                  <ImageMatrix NoOfSubRecons="2">
+                    <SubRecon>Square</SubRecon>
+                  </ImageMatrix>
+                  <FoVWidth NoOfSubRecons="2">
+                    <SubRecon>164,16</SubRecon>
+                  </FoVWidth>
+                  <FoVHeight NoOfSubRecons="2">
+                    <SubRecon>164,16</SubRecon>
+                  </FoVHeight>
+                  <FoVCenterX NoOfSubRecons="2">
+                    <SubRecon>0,00</SubRecon>
+                  </FoVCenterX>
+                  <FoVCenterY NoOfSubRecons="2">
+                    <SubRecon>13,56</SubRecon>
+                  </FoVCenterY>
+                  <Mirror NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                  </Mirror>
+                  <HDFoV NoOfSubRecons="2">
+                    <SubRecon>Off</SubRecon>
+                  </HDFoV>
+                  <PhysioReconstructionType NoOfSubRecons="2" />
+                  <ReconPhaseStep NoOfSubRecons="2" />
+                  <ReconPhases NoOfSubRecons="2" />
+                  <ReconPhaseUnit NoOfSubRecons="2" />
+                  <TrueStack NoOfSubRecons="2" />
+                  <TemporalResolution NoOfSubRecons="2" />
+                  <UseScanRepetitionForRecon NoOfSubRecons="2" />
+                  <EcgDocumentation NoOfSubRecons="2" />
+                  <AutoRecon NoOfSubRecons="2">
+                    <SubRecon>On</SubRecon>
+                  </AutoRecon>
+                  <AutoReconReferenceLines NoOfSubRecons="2">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoReconReferenceLines>
+                  <BodyPartExamined NoOfSubRecons="2">
+                    <SubRecon>Head</SubRecon>
+                  </BodyPartExamined>
+                  <SeriesSplitting NoOfSubRecons="2" />
+                  <AutoTransferNodes NoOfSubRecons="2">
+                    <SubRecon>PACS; SYNGOVIA_EC</SubRecon>
+                    <SubRecon>PACS; SYNGOVIA_EC</SubRecon>
+                  </AutoTransferNodes>
+                  <AutoTransferEnabled NoOfSubRecons="2">
+                    <SubRecon>On</SubRecon>
+                    <SubRecon>On</SubRecon>
+                  </AutoTransferEnabled>
+                  <Workplace NoOfSubRecons="2">
+                    <SubRecon>Acquisition Workplace</SubRecon>
+                  </Workplace>
+                  <AutoViewing NoOfSubRecons="2">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoViewing>
+                  <ViewAndGoDataroles NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </ViewAndGoDataroles>
+                  <AutoFilming NoOfSubRecons="2">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoFilming>
+                  <AutoPrintingLayout NoOfSubRecons="2" />
+                  <AdvancedVisualization NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </AdvancedVisualization>
+                  <AdvancedVisualizationDataRoles NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </AdvancedVisualizationDataRoles>
+                  <LocalApplication NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                  </LocalApplication>
+                  <SyngoViaApplication NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                  </SyngoViaApplication>
+                  <SyngoViaDataroles NoOfSubRecons="2">
+                    <SubRecon>Auto</SubRecon>
+                    <SubRecon>Auto</SubRecon>
+                  </SyngoViaDataroles>
+                  <SpecialReconType NoOfSubRecons="2">
+                    <SubRecon>None</SubRecon>
+                  </SpecialReconType>
+                  <PacsReadyNoduleTypes NoOfSubRecons="2" />
+                  <PacsReadyStartPosition NoOfSubRecons="2" />
+                  <PacsReadyEndPosition NoOfSubRecons="2" />
+                  <PacsReadyCprType NoOfSubRecons="2" />
+                  <PacsReadyVessel NoOfSubRecons="2" />
+                  <PacsReadyVesselLabel NoOfSubRecons="2" />
+                  <PacsReadyOrgan NoOfSubRecons="2" />
+                  <PacsReadyAngleBetweenImages NoOfSubRecons="2" />
+                  <PacsReadyStartAngle NoOfSubRecons="2" />
+                  <PacsReadyEndAngle NoOfSubRecons="2" />
+                  <PacsReadyVrtPreset NoOfSubRecons="2" />
+                  <PacsReadyRemoveTable NoOfSubRecons="2" />
+                  <PacsReadyRemoveBones NoOfSubRecons="2" />
+                  <PacsReadyIsInvertedViewingDirection NoOfSubRecons="2" />
+                  <PacsReadyHighResolution NoOfSubRecons="2" />
+                  <PacsReadyApplicationClassName NoOfSubRecons="2" />
+                  <PacsReadyAutoKev NoOfSubRecons="2" />
+                  <PacsReadyEnergy NoOfSubRecons="2" />
+                  <PacsReadyShowPlaques NoOfSubRecons="2" />
+                  <PacsReadyDataset NoOfSubRecons="2" />
+                  <PacsReadyScoringMode NoOfSubRecons="2" />
+                  <PacsReadyReferenceDatabase NoOfSubRecons="2" />
+                  <PacsReadyStructureTemplateSelectionMode NoOfSubRecons="2" />
+                  <PacsReadyStructureTemplateToSegment NoOfSubRecons="2" />
+                  <PacsReadyLungAnalysisView NoOfSubRecons="2" />
+                  <PacsReadyThickAxial NoOfSubRecons="2" />
+                  <PacsReadyLungLobeSegmentation NoOfSubRecons="2" />
+                  <PacsReadyUnfoldingTypeId NoOfSubRecons="2" />
+                </ScanEntry>
+                <ScanEntry ScanType="ReconCompound" NoOfSubRecons="1">
+                  <Name NoOfSubRecons="1">
+                    <SubRecon>Inner Ear 0,20 Hr72 Q3 cor</SubRecon>
+                  </Name>
+                  <HiddenProtocols />
+                  <HiddenRange />
+                  <InRoomScannable />
+                  <ProtocolDescription NoOfSubRecons="1" />
+                  <RTPatientMarking NoOfSubRecons="1" />
+                  <BodySize NoOfSubRecons="1" />
+                  <OrganCharacteristics NoOfSubRecons="1" />
+                  <TargetRegion NoOfSubRecons="1" />
+                  <PresetName NoOfSubRecons="1" />
+                  <BasicScanMode NoOfSubRecons="1" />
+                  <UserAvailableBasicScanModes NoOfSubRecons="1" />
+                  <DecisionTreeStrategyReviewEnabled NoOfSubRecons="1" />
+                  <DecisionTrees NoOfSubRecons="1" />
+                  <DecisionTreeStrategies NoOfSubRecons="1" />
+                  <RangeTilt NoOfSubRecons="1" />
+                  <AcquiredSlices NoOfSubRecons="1" />
+                  <ScanDirection NoOfSubRecons="1" />
+                  <TableDirection NoOfSubRecons="1" />
+                  <PatientPosition NoOfSubRecons="1" />
+                  <FeedScan NoOfSubRecons="1" />
+                  <NumberOfScans NoOfSubRecons="1" />
+                  <TubePositionGantryRelated NoOfSubRecons="1" />
+                  <PlannedTopoLength NoOfSubRecons="1" />
+                  <CareDose4DAndCareKv NoOfSubRecons="1" />
+                  <CareDoseEnabled NoOfSubRecons="1" />
+                  <CareKvQualityRefmAs120KvModelIndependent NoOfSubRecons="1" />
+                  <ImageQualityMaterialContrast NoOfSubRecons="1" />
+                  <CareKvGrouping NoOfSubRecons="1" />
+                  <TubeVoltage NoOfSubRecons="1" />
+                  <DualVoltageTubeVoltage NoOfSubRecons="1" />
+                  <ReferenceMilliAmpereSecondsEffective NoOfSubRecons="1" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveLow NoOfSubRecons="1" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh NoOfSubRecons="1" />
+                  <MilliAmpereSecondsEffective NoOfSubRecons="1" />
+                  <DualVoltageMilliAmpereSecondsEffectiveLow NoOfSubRecons="1" />
+                  <DualVoltageMilliAmpereSecondsEffectiveHigh NoOfSubRecons="1" />
+                  <TubeCurrent NoOfSubRecons="1" />
+                  <MinimumVoltageWithXRayMaterial NoOfSubRecons="1" />
+                  <MaximumVoltageWithXRayMaterial NoOfSubRecons="1" />
+                  <CTDoseIndexWeighted NoOfSubRecons="1" />
+                  <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter NoOfSubRecons="1" />
+                  <NextCTDoseIndex NoOfSubRecons="1" />
+                  <DoseLengthProductEffective NoOfSubRecons="1" />
+                  <NextDoseLengthProduct NoOfSubRecons="1" />
+                  <CTDoseIndexWeightedLimit NoOfSubRecons="1" />
+                  <CTDoseIndexWeightedLimitForFluoro NoOfSubRecons="1" />
+                  <DoseLengthProductEffectiveLimit NoOfSubRecons="1" />
+                  <DoseLengthProductEffectiveLimitForFluoro NoOfSubRecons="1" />
+                  <EnergyThresholds NoOfSubRecons="1" />
+                  <ShapedFilter NoOfSubRecons="1" />
+                  <HandCareSegment NoOfSubRecons="1" />
+                  <AverageEffectiveTubeCurrent NoOfSubRecons="1" />
+                  <PitchFactor NoOfSubRecons="1" />
+                  <RotationTime NoOfSubRecons="1" />
+                  <ScanTime NoOfSubRecons="1" />
+                  <ExaminationTime NoOfSubRecons="1" />
+                  <ImageCycleTime NoOfSubRecons="1" />
+                  <AudioInstructionText NoOfSubRecons="1" />
+                  <AudioInstructionCommand NoOfSubRecons="1" />
+                  <PostInstructionDelay NoOfSubRecons="1" />
+                  <IntendedAbsoluteStartDelay NoOfSubRecons="1" />
+                  <PostBolusDelayBolusTracking NoOfSubRecons="1" />
+                  <PostBolusDelayTestbolus NoOfSubRecons="1" />
+                  <AutoRoiOption NoOfSubRecons="1" />
+                  <HuTriggerLevel NoOfSubRecons="1" />
+                  <AutoTrigger NoOfSubRecons="1" />
+                  <ExposurePattern NoOfSubRecons="1" />
+                  <MemoContent NoOfSubRecons="1" />
+                  <MetalDetection NoOfSubRecons="1" />
+                  <QualityCheck NoOfSubRecons="1" />
+                  <QualityCheckImageType NoOfSubRecons="1" />
+                  <QualityCheckOrientation NoOfSubRecons="1" />
+                  <ScanStart NoOfSubRecons="1" />
+                  <AutoRangeReferenceLines NoOfSubRecons="1" />
+                  <MaximumExamTime NoOfSubRecons="1" />
+                  <MaximumMAsDecrease NoOfSubRecons="1" />
+                  <MinimumPitch NoOfSubRecons="1" />
+                  <PulsingMode NoOfSubRecons="1" />
+                  <PulsingStart NoOfSubRecons="1" />
+                  <PulsingEnd NoOfSubRecons="1" />
+                  <PulsingUnit NoOfSubRecons="1" />
+                  <EstimatedHeartrate NoOfSubRecons="1" />
+                  <EstimatedRespiratoryRate NoOfSubRecons="1" />
+                  <EstimatedTemporalResolution NoOfSubRecons="1" />
+                  <IsCoupled NoOfSubRecons="1" />
+                  <ContrastProtocol NoOfSubRecons="1" />
+                  <SliceThickness NoOfSubRecons="1">
+                    <SubRecon>0,20</SubRecon>
+                  </SliceThickness>
+                  <Increment NoOfSubRecons="1">
+                    <SubRecon>0,20</SubRecon>
+                  </Increment>
+                  <SlicesPerRotation NoOfSubRecons="1" />
+                  <NumberOfImages NoOfSubRecons="1">
+                    <SubRecon>811</SubRecon>
+                  </NumberOfImages>
+                  <Comment1 NoOfSubRecons="1">
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment1>
+                  <Comment2 NoOfSubRecons="1">
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment2>
+                  <ReconPattern NoOfSubRecons="1" />
+                  <ReconCompoundStrategy NoOfSubRecons="1" />
+                  <DirectDE NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </DirectDE>
+                  <AutoKeV NoOfSubRecons="1" />
+                  <DirectKeV NoOfSubRecons="1" />
+                  <SpecialReconType NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </SpecialReconType>
+                  <MultiRecons NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </MultiRecons>
+                  <FixAxial NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </FixAxial>
+                  <ImageType NoOfSubRecons="1">
+                    <SubRecon>MPR</SubRecon>
+                  </ImageType>
+                  <Window NoOfSubRecons="1">
+                    <SubRecon>Inner Ear</SubRecon>
+                  </Window>
+                  <FastWindow NoOfSubRecons="1">
+                    <SubRecon>On</SubRecon>
+                  </FastWindow>
+                  <Kernel NoOfSubRecons="1">
+                    <SubRecon>Hr72</SubRecon>
+                  </Kernel>
+                  <IterativeRecon NoOfSubRecons="1">
+                    <SubRecon>On</SubRecon>
+                  </IterativeRecon>
+                  <IterativeReconStrength NoOfSubRecons="1">
+                    <SubRecon>3</SubRecon>
+                  </IterativeReconStrength>
+                  <BHC NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </BHC>
+                  <BHCMaterial NoOfSubRecons="1" />
+                  <IMar NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </IMar>
+                  <IMarType NoOfSubRecons="1" />
+                  <ImageOrientation NoOfSubRecons="1">
+                    <SubRecon>Coronal</SubRecon>
+                  </ImageOrientation>
+                  <ImageOrder NoOfSubRecons="1">
+                    <SubRecon>Front to Back</SubRecon>
+                  </ImageOrder>
+                  <FastPlanning NoOfSubRecons="1">
+                    <SubRecon>Head Special - Inner Ear - No Tilt</SubRecon>
+                  </FastPlanning>
+                  <FastPlanningFov NoOfSubRecons="1">
+                    <SubRecon>Narrow</SubRecon>
+                  </FastPlanningFov>
+                  <Fast3D NoOfSubRecons="1">
+                    <SubRecon>On</SubRecon>
+                  </Fast3D>
+                  <ImageMatrixSize NoOfSubRecons="1">
+                    <SubRecon>1024</SubRecon>
+                  </ImageMatrixSize>
+                  <ImageMatrix NoOfSubRecons="1">
+                    <SubRecon>Non-Square</SubRecon>
+                  </ImageMatrix>
+                  <FoVWidth NoOfSubRecons="1">
+                    <SubRecon>164,16</SubRecon>
+                  </FoVWidth>
+                  <FoVHeight NoOfSubRecons="1">
+                    <SubRecon>75,34</SubRecon>
+                  </FoVHeight>
+                  <FoVCenterX NoOfSubRecons="1" />
+                  <FoVCenterY NoOfSubRecons="1" />
+                  <Mirror NoOfSubRecons="1" />
+                  <HDFoV NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </HDFoV>
+                  <PhysioReconstructionType NoOfSubRecons="1" />
+                  <ReconPhaseStep NoOfSubRecons="1" />
+                  <ReconPhases NoOfSubRecons="1" />
+                  <ReconPhaseUnit NoOfSubRecons="1" />
+                  <TrueStack NoOfSubRecons="1" />
+                  <TemporalResolution NoOfSubRecons="1" />
+                  <UseScanRepetitionForRecon NoOfSubRecons="1" />
+                  <EcgDocumentation NoOfSubRecons="1" />
+                  <AutoRecon NoOfSubRecons="1">
+                    <SubRecon>On</SubRecon>
+                  </AutoRecon>
+                  <AutoReconReferenceLines NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </AutoReconReferenceLines>
+                  <BodyPartExamined NoOfSubRecons="1">
+                    <SubRecon>Head</SubRecon>
+                  </BodyPartExamined>
+                  <SeriesSplitting NoOfSubRecons="1" />
+                  <AutoTransferNodes NoOfSubRecons="1">
+                    <SubRecon>PACS; SYNGOVIA_EC</SubRecon>
+                  </AutoTransferNodes>
+                  <AutoTransferEnabled NoOfSubRecons="1">
+                    <SubRecon>On</SubRecon>
+                  </AutoTransferEnabled>
+                  <Workplace NoOfSubRecons="1">
+                    <SubRecon>Acquisition Workplace</SubRecon>
+                  </Workplace>
+                  <AutoViewing NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </AutoViewing>
+                  <ViewAndGoDataroles NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </ViewAndGoDataroles>
+                  <AutoFilming NoOfSubRecons="1">
+                    <SubRecon>Off</SubRecon>
+                  </AutoFilming>
+                  <AutoPrintingLayout NoOfSubRecons="1" />
+                  <AdvancedVisualization NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </AdvancedVisualization>
+                  <AdvancedVisualizationDataRoles NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </AdvancedVisualizationDataRoles>
+                  <LocalApplication NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </LocalApplication>
+                  <SyngoViaApplication NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </SyngoViaApplication>
+                  <SyngoViaDataroles NoOfSubRecons="1">
+                    <SubRecon>Auto</SubRecon>
+                  </SyngoViaDataroles>
+                  <SpecialReconType NoOfSubRecons="1">
+                    <SubRecon>None</SubRecon>
+                  </SpecialReconType>
+                  <PacsReadyNoduleTypes NoOfSubRecons="1" />
+                  <PacsReadyStartPosition NoOfSubRecons="1" />
+                  <PacsReadyEndPosition NoOfSubRecons="1" />
+                  <PacsReadyCprType NoOfSubRecons="1" />
+                  <PacsReadyVessel NoOfSubRecons="1" />
+                  <PacsReadyVesselLabel NoOfSubRecons="1" />
+                  <PacsReadyOrgan NoOfSubRecons="1" />
+                  <PacsReadyAngleBetweenImages NoOfSubRecons="1" />
+                  <PacsReadyStartAngle NoOfSubRecons="1" />
+                  <PacsReadyEndAngle NoOfSubRecons="1" />
+                  <PacsReadyVrtPreset NoOfSubRecons="1" />
+                  <PacsReadyRemoveTable NoOfSubRecons="1" />
+                  <PacsReadyRemoveBones NoOfSubRecons="1" />
+                  <PacsReadyIsInvertedViewingDirection NoOfSubRecons="1" />
+                  <PacsReadyHighResolution NoOfSubRecons="1" />
+                  <PacsReadyApplicationClassName NoOfSubRecons="1" />
+                  <PacsReadyAutoKev NoOfSubRecons="1" />
+                  <PacsReadyEnergy NoOfSubRecons="1" />
+                  <PacsReadyShowPlaques NoOfSubRecons="1" />
+                  <PacsReadyDataset NoOfSubRecons="1" />
+                  <PacsReadyScoringMode NoOfSubRecons="1" />
+                  <PacsReadyReferenceDatabase NoOfSubRecons="1" />
+                  <PacsReadyStructureTemplateSelectionMode NoOfSubRecons="1" />
+                  <PacsReadyStructureTemplateToSegment NoOfSubRecons="1" />
+                  <PacsReadyLungAnalysisView NoOfSubRecons="1" />
+                  <PacsReadyThickAxial NoOfSubRecons="1" />
+                  <PacsReadyLungLobeSegmentation NoOfSubRecons="1" />
+                  <PacsReadyUnfoldingTypeId NoOfSubRecons="1" />
+                </ScanEntry>
+                <ScanEntry ScanType="ReconCompound" NoOfSubRecons="3">
+                  <Name NoOfSubRecons="3">
+                    <SubRecon>Inner Ear 0,20 Hr72 Q3 ax R</SubRecon>
+                    <SubRecon>Inner Ear 0,20 Hr72 Q3 cor R</SubRecon>
+                    <SubRecon>Inner Ear 0,20 Hr72 Q3 sag R</SubRecon>
+                  </Name>
+                  <HiddenProtocols />
+                  <HiddenRange />
+                  <InRoomScannable />
+                  <ProtocolDescription NoOfSubRecons="3" />
+                  <RTPatientMarking NoOfSubRecons="3" />
+                  <BodySize NoOfSubRecons="3" />
+                  <OrganCharacteristics NoOfSubRecons="3" />
+                  <TargetRegion NoOfSubRecons="3" />
+                  <PresetName NoOfSubRecons="3" />
+                  <BasicScanMode NoOfSubRecons="3" />
+                  <UserAvailableBasicScanModes NoOfSubRecons="3" />
+                  <DecisionTreeStrategyReviewEnabled NoOfSubRecons="3" />
+                  <DecisionTrees NoOfSubRecons="3" />
+                  <DecisionTreeStrategies NoOfSubRecons="3" />
+                  <RangeTilt NoOfSubRecons="3" />
+                  <AcquiredSlices NoOfSubRecons="3" />
+                  <ScanDirection NoOfSubRecons="3" />
+                  <TableDirection NoOfSubRecons="3" />
+                  <PatientPosition NoOfSubRecons="3" />
+                  <FeedScan NoOfSubRecons="3" />
+                  <NumberOfScans NoOfSubRecons="3" />
+                  <TubePositionGantryRelated NoOfSubRecons="3" />
+                  <PlannedTopoLength NoOfSubRecons="3" />
+                  <CareDose4DAndCareKv NoOfSubRecons="3" />
+                  <CareDoseEnabled NoOfSubRecons="3" />
+                  <CareKvQualityRefmAs120KvModelIndependent NoOfSubRecons="3" />
+                  <ImageQualityMaterialContrast NoOfSubRecons="3" />
+                  <CareKvGrouping NoOfSubRecons="3" />
+                  <TubeVoltage NoOfSubRecons="3" />
+                  <DualVoltageTubeVoltage NoOfSubRecons="3" />
+                  <ReferenceMilliAmpereSecondsEffective NoOfSubRecons="3" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveLow NoOfSubRecons="3" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh NoOfSubRecons="3" />
+                  <MilliAmpereSecondsEffective NoOfSubRecons="3" />
+                  <DualVoltageMilliAmpereSecondsEffectiveLow NoOfSubRecons="3" />
+                  <DualVoltageMilliAmpereSecondsEffectiveHigh NoOfSubRecons="3" />
+                  <TubeCurrent NoOfSubRecons="3" />
+                  <MinimumVoltageWithXRayMaterial NoOfSubRecons="3" />
+                  <MaximumVoltageWithXRayMaterial NoOfSubRecons="3" />
+                  <CTDoseIndexWeighted NoOfSubRecons="3" />
+                  <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter NoOfSubRecons="3" />
+                  <NextCTDoseIndex NoOfSubRecons="3" />
+                  <DoseLengthProductEffective NoOfSubRecons="3" />
+                  <NextDoseLengthProduct NoOfSubRecons="3" />
+                  <CTDoseIndexWeightedLimit NoOfSubRecons="3" />
+                  <CTDoseIndexWeightedLimitForFluoro NoOfSubRecons="3" />
+                  <DoseLengthProductEffectiveLimit NoOfSubRecons="3" />
+                  <DoseLengthProductEffectiveLimitForFluoro NoOfSubRecons="3" />
+                  <EnergyThresholds NoOfSubRecons="3" />
+                  <ShapedFilter NoOfSubRecons="3" />
+                  <HandCareSegment NoOfSubRecons="3" />
+                  <AverageEffectiveTubeCurrent NoOfSubRecons="3" />
+                  <PitchFactor NoOfSubRecons="3" />
+                  <RotationTime NoOfSubRecons="3" />
+                  <ScanTime NoOfSubRecons="3" />
+                  <ExaminationTime NoOfSubRecons="3" />
+                  <ImageCycleTime NoOfSubRecons="3" />
+                  <AudioInstructionText NoOfSubRecons="3" />
+                  <AudioInstructionCommand NoOfSubRecons="3" />
+                  <PostInstructionDelay NoOfSubRecons="3" />
+                  <IntendedAbsoluteStartDelay NoOfSubRecons="3" />
+                  <PostBolusDelayBolusTracking NoOfSubRecons="3" />
+                  <PostBolusDelayTestbolus NoOfSubRecons="3" />
+                  <AutoRoiOption NoOfSubRecons="3" />
+                  <HuTriggerLevel NoOfSubRecons="3" />
+                  <AutoTrigger NoOfSubRecons="3" />
+                  <ExposurePattern NoOfSubRecons="3" />
+                  <MemoContent NoOfSubRecons="3" />
+                  <MetalDetection NoOfSubRecons="3" />
+                  <QualityCheck NoOfSubRecons="3" />
+                  <QualityCheckImageType NoOfSubRecons="3" />
+                  <QualityCheckOrientation NoOfSubRecons="3" />
+                  <ScanStart NoOfSubRecons="3" />
+                  <AutoRangeReferenceLines NoOfSubRecons="3" />
+                  <MaximumExamTime NoOfSubRecons="3" />
+                  <MaximumMAsDecrease NoOfSubRecons="3" />
+                  <MinimumPitch NoOfSubRecons="3" />
+                  <PulsingMode NoOfSubRecons="3" />
+                  <PulsingStart NoOfSubRecons="3" />
+                  <PulsingEnd NoOfSubRecons="3" />
+                  <PulsingUnit NoOfSubRecons="3" />
+                  <EstimatedHeartrate NoOfSubRecons="3" />
+                  <EstimatedRespiratoryRate NoOfSubRecons="3" />
+                  <EstimatedTemporalResolution NoOfSubRecons="3" />
+                  <IsCoupled NoOfSubRecons="3" />
+                  <ContrastProtocol NoOfSubRecons="3" />
+                  <SliceThickness NoOfSubRecons="3">
+                    <SubRecon>0,20</SubRecon>
+                  </SliceThickness>
+                  <Increment NoOfSubRecons="3">
+                    <SubRecon>0,20</SubRecon>
+                  </Increment>
+                  <SlicesPerRotation NoOfSubRecons="3" />
+                  <NumberOfImages NoOfSubRecons="3">
+                    <SubRecon>450</SubRecon>
+                    <SubRecon>450</SubRecon>
+                    <SubRecon>450</SubRecon>
+                  </NumberOfImages>
+                  <Comment1 NoOfSubRecons="3">
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment1>
+                  <Comment2 NoOfSubRecons="3">
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment2>
+                  <ReconPattern NoOfSubRecons="3" />
+                  <ReconCompoundStrategy NoOfSubRecons="3" />
+                  <DirectDE NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </DirectDE>
+                  <AutoKeV NoOfSubRecons="3" />
+                  <DirectKeV NoOfSubRecons="3" />
+                  <SpecialReconType NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </SpecialReconType>
+                  <MultiRecons NoOfSubRecons="3">
+                    <SubRecon>Orientation Multi Recons (3)</SubRecon>
+                  </MultiRecons>
+                  <FixAxial NoOfSubRecons="3" />
+                  <ImageType NoOfSubRecons="3">
+                    <SubRecon>MPR</SubRecon>
+                  </ImageType>
+                  <Window NoOfSubRecons="3">
+                    <SubRecon>Inner Ear</SubRecon>
+                  </Window>
+                  <FastWindow NoOfSubRecons="3">
+                    <SubRecon>On</SubRecon>
+                  </FastWindow>
+                  <Kernel NoOfSubRecons="3">
+                    <SubRecon>Hr72</SubRecon>
+                  </Kernel>
+                  <IterativeRecon NoOfSubRecons="3">
+                    <SubRecon>On</SubRecon>
+                  </IterativeRecon>
+                  <IterativeReconStrength NoOfSubRecons="3">
+                    <SubRecon>3</SubRecon>
+                  </IterativeReconStrength>
+                  <BHC NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </BHC>
+                  <BHCMaterial NoOfSubRecons="3" />
+                  <IMar NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </IMar>
+                  <IMarType NoOfSubRecons="3" />
+                  <ImageOrientation NoOfSubRecons="3">
+                    <SubRecon>Axial</SubRecon>
+                    <SubRecon>Coronal</SubRecon>
+                    <SubRecon>Sagittal</SubRecon>
+                  </ImageOrientation>
+                  <ImageOrder NoOfSubRecons="3">
+                    <SubRecon>Head to Feet</SubRecon>
+                    <SubRecon>Front to Back</SubRecon>
+                    <SubRecon>Right to Left</SubRecon>
+                  </ImageOrder>
+                  <FastPlanning NoOfSubRecons="3">
+                    <SubRecon>Head Special - Inner Ear - No Tilt</SubRecon>
+                  </FastPlanning>
+                  <FastPlanningFov NoOfSubRecons="3">
+                    <SubRecon>Narrow</SubRecon>
+                  </FastPlanningFov>
+                  <Fast3D NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </Fast3D>
+                  <ImageMatrixSize NoOfSubRecons="3">
+                    <SubRecon>1024</SubRecon>
+                    <SubRecon>1024</SubRecon>
+                    <SubRecon>1024</SubRecon>
+                  </ImageMatrixSize>
+                  <ImageMatrix NoOfSubRecons="3">
+                    <SubRecon>Non-Square</SubRecon>
+                  </ImageMatrix>
+                  <FoVWidth NoOfSubRecons="3">
+                    <SubRecon>90,00</SubRecon>
+                    <SubRecon>90,00</SubRecon>
+                    <SubRecon>90,00</SubRecon>
+                  </FoVWidth>
+                  <FoVHeight NoOfSubRecons="3">
+                    <SubRecon>90,00</SubRecon>
+                    <SubRecon>90,00</SubRecon>
+                    <SubRecon>90,00</SubRecon>
+                  </FoVHeight>
+                  <FoVCenterX NoOfSubRecons="3" />
+                  <FoVCenterY NoOfSubRecons="3" />
+                  <Mirror NoOfSubRecons="3" />
+                  <HDFoV NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </HDFoV>
+                  <PhysioReconstructionType NoOfSubRecons="3" />
+                  <ReconPhaseStep NoOfSubRecons="3" />
+                  <ReconPhases NoOfSubRecons="3" />
+                  <ReconPhaseUnit NoOfSubRecons="3" />
+                  <TrueStack NoOfSubRecons="3" />
+                  <TemporalResolution NoOfSubRecons="3" />
+                  <UseScanRepetitionForRecon NoOfSubRecons="3" />
+                  <EcgDocumentation NoOfSubRecons="3" />
+                  <AutoRecon NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </AutoRecon>
+                  <AutoReconReferenceLines NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoReconReferenceLines>
+                  <BodyPartExamined NoOfSubRecons="3">
+                    <SubRecon>Head</SubRecon>
+                  </BodyPartExamined>
+                  <SeriesSplitting NoOfSubRecons="3" />
+                  <AutoTransferNodes NoOfSubRecons="3">
+                    <SubRecon>PACS</SubRecon>
+                    <SubRecon>PACS</SubRecon>
+                    <SubRecon>PACS</SubRecon>
+                  </AutoTransferNodes>
+                  <AutoTransferEnabled NoOfSubRecons="3">
+                    <SubRecon>On</SubRecon>
+                    <SubRecon>On</SubRecon>
+                    <SubRecon>On</SubRecon>
+                  </AutoTransferEnabled>
+                  <Workplace NoOfSubRecons="3">
+                    <SubRecon>Acquisition Workplace</SubRecon>
+                  </Workplace>
+                  <AutoViewing NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoViewing>
+                  <ViewAndGoDataroles NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </ViewAndGoDataroles>
+                  <AutoFilming NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoFilming>
+                  <AutoPrintingLayout NoOfSubRecons="3" />
+                  <AdvancedVisualization NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </AdvancedVisualization>
+                  <AdvancedVisualizationDataRoles NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </AdvancedVisualizationDataRoles>
+                  <LocalApplication NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </LocalApplication>
+                  <SyngoViaApplication NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </SyngoViaApplication>
+                  <SyngoViaDataroles NoOfSubRecons="3">
+                    <SubRecon>Auto</SubRecon>
+                    <SubRecon>Auto</SubRecon>
+                    <SubRecon>Auto</SubRecon>
+                  </SyngoViaDataroles>
+                  <SpecialReconType NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </SpecialReconType>
+                  <PacsReadyNoduleTypes NoOfSubRecons="3" />
+                  <PacsReadyStartPosition NoOfSubRecons="3" />
+                  <PacsReadyEndPosition NoOfSubRecons="3" />
+                  <PacsReadyCprType NoOfSubRecons="3" />
+                  <PacsReadyVessel NoOfSubRecons="3" />
+                  <PacsReadyVesselLabel NoOfSubRecons="3" />
+                  <PacsReadyOrgan NoOfSubRecons="3" />
+                  <PacsReadyAngleBetweenImages NoOfSubRecons="3" />
+                  <PacsReadyStartAngle NoOfSubRecons="3" />
+                  <PacsReadyEndAngle NoOfSubRecons="3" />
+                  <PacsReadyVrtPreset NoOfSubRecons="3" />
+                  <PacsReadyRemoveTable NoOfSubRecons="3" />
+                  <PacsReadyRemoveBones NoOfSubRecons="3" />
+                  <PacsReadyIsInvertedViewingDirection NoOfSubRecons="3" />
+                  <PacsReadyHighResolution NoOfSubRecons="3" />
+                  <PacsReadyApplicationClassName NoOfSubRecons="3" />
+                  <PacsReadyAutoKev NoOfSubRecons="3" />
+                  <PacsReadyEnergy NoOfSubRecons="3" />
+                  <PacsReadyShowPlaques NoOfSubRecons="3" />
+                  <PacsReadyDataset NoOfSubRecons="3" />
+                  <PacsReadyScoringMode NoOfSubRecons="3" />
+                  <PacsReadyReferenceDatabase NoOfSubRecons="3" />
+                  <PacsReadyStructureTemplateSelectionMode NoOfSubRecons="3" />
+                  <PacsReadyStructureTemplateToSegment NoOfSubRecons="3" />
+                  <PacsReadyLungAnalysisView NoOfSubRecons="3" />
+                  <PacsReadyThickAxial NoOfSubRecons="3" />
+                  <PacsReadyLungLobeSegmentation NoOfSubRecons="3" />
+                  <PacsReadyUnfoldingTypeId NoOfSubRecons="3" />
+                </ScanEntry>
+                <ScanEntry ScanType="ReconCompound" NoOfSubRecons="3">
+                  <Name NoOfSubRecons="3">
+                    <SubRecon>Inner Ear 0,20 Hr72 Q3 ax L</SubRecon>
+                    <SubRecon>Inner Ear 0,20 Hr72 Q3 cor L</SubRecon>
+                    <SubRecon>Inner Ear 0,20 Hr72 Q3 sag L</SubRecon>
+                  </Name>
+                  <HiddenProtocols />
+                  <HiddenRange />
+                  <InRoomScannable />
+                  <ProtocolDescription NoOfSubRecons="3" />
+                  <RTPatientMarking NoOfSubRecons="3" />
+                  <BodySize NoOfSubRecons="3" />
+                  <OrganCharacteristics NoOfSubRecons="3" />
+                  <TargetRegion NoOfSubRecons="3" />
+                  <PresetName NoOfSubRecons="3" />
+                  <BasicScanMode NoOfSubRecons="3" />
+                  <UserAvailableBasicScanModes NoOfSubRecons="3" />
+                  <DecisionTreeStrategyReviewEnabled NoOfSubRecons="3" />
+                  <DecisionTrees NoOfSubRecons="3" />
+                  <DecisionTreeStrategies NoOfSubRecons="3" />
+                  <RangeTilt NoOfSubRecons="3" />
+                  <AcquiredSlices NoOfSubRecons="3" />
+                  <ScanDirection NoOfSubRecons="3" />
+                  <TableDirection NoOfSubRecons="3" />
+                  <PatientPosition NoOfSubRecons="3" />
+                  <FeedScan NoOfSubRecons="3" />
+                  <NumberOfScans NoOfSubRecons="3" />
+                  <TubePositionGantryRelated NoOfSubRecons="3" />
+                  <PlannedTopoLength NoOfSubRecons="3" />
+                  <CareDose4DAndCareKv NoOfSubRecons="3" />
+                  <CareDoseEnabled NoOfSubRecons="3" />
+                  <CareKvQualityRefmAs120KvModelIndependent NoOfSubRecons="3" />
+                  <ImageQualityMaterialContrast NoOfSubRecons="3" />
+                  <CareKvGrouping NoOfSubRecons="3" />
+                  <TubeVoltage NoOfSubRecons="3" />
+                  <DualVoltageTubeVoltage NoOfSubRecons="3" />
+                  <ReferenceMilliAmpereSecondsEffective NoOfSubRecons="3" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveLow NoOfSubRecons="3" />
+                  <DualVoltageReferenceMilliAmpereSecondsEffectiveHigh NoOfSubRecons="3" />
+                  <MilliAmpereSecondsEffective NoOfSubRecons="3" />
+                  <DualVoltageMilliAmpereSecondsEffectiveLow NoOfSubRecons="3" />
+                  <DualVoltageMilliAmpereSecondsEffectiveHigh NoOfSubRecons="3" />
+                  <TubeCurrent NoOfSubRecons="3" />
+                  <MinimumVoltageWithXRayMaterial NoOfSubRecons="3" />
+                  <MaximumVoltageWithXRayMaterial NoOfSubRecons="3" />
+                  <CTDoseIndexWeighted NoOfSubRecons="3" />
+                  <SizeSpecificDoseEstimateWithWaterEquivalentPatientDiameter NoOfSubRecons="3" />
+                  <NextCTDoseIndex NoOfSubRecons="3" />
+                  <DoseLengthProductEffective NoOfSubRecons="3" />
+                  <NextDoseLengthProduct NoOfSubRecons="3" />
+                  <CTDoseIndexWeightedLimit NoOfSubRecons="3" />
+                  <CTDoseIndexWeightedLimitForFluoro NoOfSubRecons="3" />
+                  <DoseLengthProductEffectiveLimit NoOfSubRecons="3" />
+                  <DoseLengthProductEffectiveLimitForFluoro NoOfSubRecons="3" />
+                  <EnergyThresholds NoOfSubRecons="3" />
+                  <ShapedFilter NoOfSubRecons="3" />
+                  <HandCareSegment NoOfSubRecons="3" />
+                  <AverageEffectiveTubeCurrent NoOfSubRecons="3" />
+                  <PitchFactor NoOfSubRecons="3" />
+                  <RotationTime NoOfSubRecons="3" />
+                  <ScanTime NoOfSubRecons="3" />
+                  <ExaminationTime NoOfSubRecons="3" />
+                  <ImageCycleTime NoOfSubRecons="3" />
+                  <AudioInstructionText NoOfSubRecons="3" />
+                  <AudioInstructionCommand NoOfSubRecons="3" />
+                  <PostInstructionDelay NoOfSubRecons="3" />
+                  <IntendedAbsoluteStartDelay NoOfSubRecons="3" />
+                  <PostBolusDelayBolusTracking NoOfSubRecons="3" />
+                  <PostBolusDelayTestbolus NoOfSubRecons="3" />
+                  <AutoRoiOption NoOfSubRecons="3" />
+                  <HuTriggerLevel NoOfSubRecons="3" />
+                  <AutoTrigger NoOfSubRecons="3" />
+                  <ExposurePattern NoOfSubRecons="3" />
+                  <MemoContent NoOfSubRecons="3" />
+                  <MetalDetection NoOfSubRecons="3" />
+                  <QualityCheck NoOfSubRecons="3" />
+                  <QualityCheckImageType NoOfSubRecons="3" />
+                  <QualityCheckOrientation NoOfSubRecons="3" />
+                  <ScanStart NoOfSubRecons="3" />
+                  <AutoRangeReferenceLines NoOfSubRecons="3" />
+                  <MaximumExamTime NoOfSubRecons="3" />
+                  <MaximumMAsDecrease NoOfSubRecons="3" />
+                  <MinimumPitch NoOfSubRecons="3" />
+                  <PulsingMode NoOfSubRecons="3" />
+                  <PulsingStart NoOfSubRecons="3" />
+                  <PulsingEnd NoOfSubRecons="3" />
+                  <PulsingUnit NoOfSubRecons="3" />
+                  <EstimatedHeartrate NoOfSubRecons="3" />
+                  <EstimatedRespiratoryRate NoOfSubRecons="3" />
+                  <EstimatedTemporalResolution NoOfSubRecons="3" />
+                  <IsCoupled NoOfSubRecons="3" />
+                  <ContrastProtocol NoOfSubRecons="3" />
+                  <SliceThickness NoOfSubRecons="3">
+                    <SubRecon>0,20</SubRecon>
+                  </SliceThickness>
+                  <Increment NoOfSubRecons="3">
+                    <SubRecon>0,20</SubRecon>
+                  </Increment>
+                  <SlicesPerRotation NoOfSubRecons="3" />
+                  <NumberOfImages NoOfSubRecons="3">
+                    <SubRecon>450</SubRecon>
+                    <SubRecon>450</SubRecon>
+                    <SubRecon>450</SubRecon>
+                  </NumberOfImages>
+                  <Comment1 NoOfSubRecons="3">
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment1>
+                  <Comment2 NoOfSubRecons="3">
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                    <SubRecon>
+                    </SubRecon>
+                  </Comment2>
+                  <ReconPattern NoOfSubRecons="3" />
+                  <ReconCompoundStrategy NoOfSubRecons="3" />
+                  <DirectDE NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </DirectDE>
+                  <AutoKeV NoOfSubRecons="3" />
+                  <DirectKeV NoOfSubRecons="3" />
+                  <SpecialReconType NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </SpecialReconType>
+                  <MultiRecons NoOfSubRecons="3">
+                    <SubRecon>Orientation Multi Recons (3)</SubRecon>
+                  </MultiRecons>
+                  <FixAxial NoOfSubRecons="3" />
+                  <ImageType NoOfSubRecons="3">
+                    <SubRecon>MPR</SubRecon>
+                  </ImageType>
+                  <Window NoOfSubRecons="3">
+                    <SubRecon>Inner Ear</SubRecon>
+                  </Window>
+                  <FastWindow NoOfSubRecons="3">
+                    <SubRecon>On</SubRecon>
+                  </FastWindow>
+                  <Kernel NoOfSubRecons="3">
+                    <SubRecon>Hr72</SubRecon>
+                  </Kernel>
+                  <IterativeRecon NoOfSubRecons="3">
+                    <SubRecon>On</SubRecon>
+                  </IterativeRecon>
+                  <IterativeReconStrength NoOfSubRecons="3">
+                    <SubRecon>3</SubRecon>
+                  </IterativeReconStrength>
+                  <BHC NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </BHC>
+                  <BHCMaterial NoOfSubRecons="3" />
+                  <IMar NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </IMar>
+                  <IMarType NoOfSubRecons="3" />
+                  <ImageOrientation NoOfSubRecons="3">
+                    <SubRecon>Axial</SubRecon>
+                    <SubRecon>Coronal</SubRecon>
+                    <SubRecon>Sagittal</SubRecon>
+                  </ImageOrientation>
+                  <ImageOrder NoOfSubRecons="3">
+                    <SubRecon>Head to Feet</SubRecon>
+                    <SubRecon>Front to Back</SubRecon>
+                    <SubRecon>Right to Left</SubRecon>
+                  </ImageOrder>
+                  <FastPlanning NoOfSubRecons="3">
+                    <SubRecon>Head Special - Inner Ear - No Tilt</SubRecon>
+                  </FastPlanning>
+                  <FastPlanningFov NoOfSubRecons="3">
+                    <SubRecon>Narrow</SubRecon>
+                  </FastPlanningFov>
+                  <Fast3D NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </Fast3D>
+                  <ImageMatrixSize NoOfSubRecons="3">
+                    <SubRecon>1024</SubRecon>
+                    <SubRecon>1024</SubRecon>
+                    <SubRecon>1024</SubRecon>
+                  </ImageMatrixSize>
+                  <ImageMatrix NoOfSubRecons="3">
+                    <SubRecon>Non-Square</SubRecon>
+                  </ImageMatrix>
+                  <FoVWidth NoOfSubRecons="3">
+                    <SubRecon>90,00</SubRecon>
+                    <SubRecon>90,00</SubRecon>
+                    <SubRecon>90,00</SubRecon>
+                  </FoVWidth>
+                  <FoVHeight NoOfSubRecons="3">
+                    <SubRecon>90,00</SubRecon>
+                    <SubRecon>90,00</SubRecon>
+                    <SubRecon>90,00</SubRecon>
+                  </FoVHeight>
+                  <FoVCenterX NoOfSubRecons="3" />
+                  <FoVCenterY NoOfSubRecons="3" />
+                  <Mirror NoOfSubRecons="3" />
+                  <HDFoV NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </HDFoV>
+                  <PhysioReconstructionType NoOfSubRecons="3" />
+                  <ReconPhaseStep NoOfSubRecons="3" />
+                  <ReconPhases NoOfSubRecons="3" />
+                  <ReconPhaseUnit NoOfSubRecons="3" />
+                  <TrueStack NoOfSubRecons="3" />
+                  <TemporalResolution NoOfSubRecons="3" />
+                  <UseScanRepetitionForRecon NoOfSubRecons="3" />
+                  <EcgDocumentation NoOfSubRecons="3" />
+                  <AutoRecon NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                  </AutoRecon>
+                  <AutoReconReferenceLines NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoReconReferenceLines>
+                  <BodyPartExamined NoOfSubRecons="3">
+                    <SubRecon>Head</SubRecon>
+                  </BodyPartExamined>
+                  <SeriesSplitting NoOfSubRecons="3" />
+                  <AutoTransferNodes NoOfSubRecons="3">
+                    <SubRecon>PACS</SubRecon>
+                    <SubRecon>PACS</SubRecon>
+                    <SubRecon>PACS</SubRecon>
+                  </AutoTransferNodes>
+                  <AutoTransferEnabled NoOfSubRecons="3">
+                    <SubRecon>On</SubRecon>
+                    <SubRecon>On</SubRecon>
+                    <SubRecon>On</SubRecon>
+                  </AutoTransferEnabled>
+                  <Workplace NoOfSubRecons="3">
+                    <SubRecon>Acquisition Workplace</SubRecon>
+                  </Workplace>
+                  <AutoViewing NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoViewing>
+                  <ViewAndGoDataroles NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </ViewAndGoDataroles>
+                  <AutoFilming NoOfSubRecons="3">
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                    <SubRecon>Off</SubRecon>
+                  </AutoFilming>
+                  <AutoPrintingLayout NoOfSubRecons="3" />
+                  <AdvancedVisualization NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </AdvancedVisualization>
+                  <AdvancedVisualizationDataRoles NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                    <SubRecon>None</SubRecon>
+                  </AdvancedVisualizationDataRoles>
+                  <LocalApplication NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </LocalApplication>
+                  <SyngoViaApplication NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </SyngoViaApplication>
+                  <SyngoViaDataroles NoOfSubRecons="3">
+                    <SubRecon>Auto</SubRecon>
+                    <SubRecon>Auto</SubRecon>
+                    <SubRecon>Auto</SubRecon>
+                  </SyngoViaDataroles>
+                  <SpecialReconType NoOfSubRecons="3">
+                    <SubRecon>None</SubRecon>
+                  </SpecialReconType>
+                  <PacsReadyNoduleTypes NoOfSubRecons="3" />
+                  <PacsReadyStartPosition NoOfSubRecons="3" />
+                  <PacsReadyEndPosition NoOfSubRecons="3" />
+                  <PacsReadyCprType NoOfSubRecons="3" />
+                  <PacsReadyVessel NoOfSubRecons="3" />
+                  <PacsReadyVesselLabel NoOfSubRecons="3" />
+                  <PacsReadyOrgan NoOfSubRecons="3" />
+                  <PacsReadyAngleBetweenImages NoOfSubRecons="3" />
+                  <PacsReadyStartAngle NoOfSubRecons="3" />
+                  <PacsReadyEndAngle NoOfSubRecons="3" />
+                  <PacsReadyVrtPreset NoOfSubRecons="3" />
+                  <PacsReadyRemoveTable NoOfSubRecons="3" />
+                  <PacsReadyRemoveBones NoOfSubRecons="3" />
+                  <PacsReadyIsInvertedViewingDirection NoOfSubRecons="3" />
+                  <PacsReadyHighResolution NoOfSubRecons="3" />
+                  <PacsReadyApplicationClassName NoOfSubRecons="3" />
+                  <PacsReadyAutoKev NoOfSubRecons="3" />
+                  <PacsReadyEnergy NoOfSubRecons="3" />
+                  <PacsReadyShowPlaques NoOfSubRecons="3" />
+                  <PacsReadyDataset NoOfSubRecons="3" />
+                  <PacsReadyScoringMode NoOfSubRecons="3" />
+                  <PacsReadyReferenceDatabase NoOfSubRecons="3" />
+                  <PacsReadyStructureTemplateSelectionMode NoOfSubRecons="3" />
+                  <PacsReadyStructureTemplateToSegment NoOfSubRecons="3" />
+                  <PacsReadyLungAnalysisView NoOfSubRecons="3" />
+                  <PacsReadyThickAxial NoOfSubRecons="3" />
+                  <PacsReadyLungLobeSegmentation NoOfSubRecons="3" />
+                  <PacsReadyUnfoldingTypeId NoOfSubRecons="3" />
+                </ScanEntry>
+              </ScanEntry>
+            </ScanEntry>
+          </Protocol>
+        </Region>
+      </Body>
+    </Folder>
+  </Mode>
+</ProtocolList>
